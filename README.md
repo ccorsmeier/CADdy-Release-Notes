@@ -16,10 +16,3 @@
 # CADdy Lite v0.0.1-Alpha
 @date: 2025-12-15
 ## Pending Release....
-
-
-# CADdy Known Issues
-- Attributes not syncing
-
-# CADdy Lite Known Issues
-- Downloading files from share view does not include drawing PDFs
