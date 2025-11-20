@@ -12,6 +12,7 @@
 - Drawing output now includes user-entered information.
 - AutoCAD script now copies and pastes correctly in non-LT versions.
 - Report feedback emails now send successfully.
+- test again
 
 # CADdy Lite v0.0.1-Alpha
 @date: 2025-12-15
