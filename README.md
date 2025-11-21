@@ -17,4 +17,15 @@
 
 # CADdy Lite v0.1.0-Alpha
 @date: 2025-12-15
-## Pending Release....
+- Pending Release....
+
+
+# CADdy Upcoming Features
+- Submittal-style PDFs with multiple drawings
+- Customization of shared projects from CADdy Lite
+- Project management
+
+# CADdy Lite Upcoming Features
+- Friends lists
+- Multi-zone unit configuration
+- Non-Microsoft login option
