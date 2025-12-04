@@ -27,6 +27,11 @@
 
 
 
+# CADdy Lite v0.1.1-Alpha
+@date: 2025-12-15
+## ...
+- Pending Release...
+
 # CADdy Lite v0.1.0-Alpha
 @date: 2025-12-15
 ## ...
