@@ -30,10 +30,10 @@
 @date: 2025-12-15
 ## Features
 - Project Management: Save and manage project details including project date, address, architect, engineer, facility, and client.
--	Equipment Customization: Configure VAVs, FCUs, AHUs, and RTUs with custom details for each project.
--	Real-Time Updates: View live updates to the sequence of operations, points list, and schematic drawing as equipment settings change.
--	Favorites System: Save equipment configurations as favorites for faster project setup.
--	Output Files: Generate a schematic drawing (AutoCAD or PDF), points list (Excel or PDF), and sequence of operations (RTF) with a single click.
+- Equipment Customization: Configure VAVs, FCUs, AHUs, and RTUs with custom details for each project.
+- Real-Time Updates: View live updates to the sequence of operations, points list, and schematic drawing as equipment settings change.
+- Favorites System: Save equipment configurations as favorites for faster project setup.
+- Output Files: Generate a schematic drawing (AutoCAD or PDF), points list (Excel or PDF), and sequence of operations (RTF) with a single click.
 
 # CADdy Upcoming Features
 - Submittal-style PDFs with multiple drawings
