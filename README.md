@@ -34,7 +34,7 @@
 - Real-Time Updates: View live updates to the sequence of operations, points list, and schematic drawing as equipment settings change.
 - Favorites System: Save equipment configurations as favorites for faster project setup.
 - Output Files: Generate a schematic drawing (AutoCAD or PDF), points list (Excel or PDF), and sequence of operations (RTF) with a single click.
-## Notes for alpha testers:
+## Things to keep in mind
 - We recognize that some equipment configurations, sequences, or points may be inaccurate at this early stage. Your engineering expertise is incredibly valuable, and we would greatly appreciate any feedback on what should be corrected or improved.
 - If anything seems confusing or different from how you usually do things, we’d appreciate your feedback. Likewise, if you have ideas for features that would make CADdy more enjoyable to use, your suggestions are welcomed and appreciated.
 - We’d also love your thoughts on speed and workflow. Does CADdy help you get things done faster than your current process? If not, please let us know what could make the workflow smoother.
