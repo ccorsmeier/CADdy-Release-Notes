@@ -49,3 +49,4 @@
 - Sharing project files to other CADdy users
 - Collaborating on projects with friends
 - Multi-zone unit configuration
+- Shared project logs
