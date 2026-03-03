@@ -27,7 +27,7 @@
 
 
 # CADdy Lite v0.1.0-Alpha
-@date: 2026-xx-xx
+@date: 2026-00-00
 ## Features
 - Project Management: Save and manage project details including project date, address, architect, engineer, facility, and client.
 - Equipment Customization: Configure VAVs, FCUs, AHUs, and RTUs with custom details for each project.
