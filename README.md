@@ -103,17 +103,15 @@
 
 # CADdy Bid Upcoming Features
 - Project notes, including the ability to notify users when they are mentioned.
-- Automatic estimate save history and backup options.
+- Estimate save history and backup options.
 - Restore options from project and estimate logs.
-- Copying items between equipment, estimates, or breakout sections.
+- Copying items between equipment and breakout sections.
 - A dashboard with project summaries, estimate activity, and customizable widgets.
 - Improved project organization with separate views for active projects, turned-over projects, lost projects, and special-case projects.
-- Custom color options for project sections and statuses.
-- User preferences, such as hiding or showing specific columns.
-- Project-specific locations that can update travel and per diem rates automatically.
+- User preferences, such as custom color options for project sections and statuses, or the ability to hide specific columns.
+- Custom project locations that can update per diem travel rates automatically.
 - Proposal exports and additional estimate document exports.
 - Monday.com integration for linked project tracking.
 - Subcontractor invitation workflows, including contact lists, email invites, and status tracking.
 - Project file uploads and item photos.
 - Order status visibility for items in completed estimates.
-- Limited subcontractor access for updating install pricing and install system information.
