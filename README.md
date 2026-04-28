@@ -40,6 +40,27 @@
 - We’d also love your thoughts on speed and workflow. Does CADdy help you get things done faster than your current process? If not, please let us know what could make the workflow smoother.
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
+
+# CADdy Bid v0.0.1-Pre-Alpha
+@date: 2026-05-18
+## Features
+- Project Management: Create projects and add one or more estimates under each project.
+- Estimate Creation: Build estimates from scratch using Belimo and Distech parts.
+- Hours Pricing: Add labor hours to estimates with office-specific hourly rates.
+- Install Systems: Add and price install systems within an estimate.
+- Points Review: Review and adjust project points while building an estimate.
+- Cost Code Review: Review cost code totals to better understand how estimate pricing is distributed.
+- Warranty and Contingency: Update warranty and contingency values as part of the estimate pricing workflow.
+- AIA Breakout: Review an AIA-style breakout for project pricing.
+- Package Management: Create reusable packages of items to speed up estimate setup.
+- Admin Setup: Manage estimate items, packages, hours, install systems, and other pricing data used throughout CADdy Bid.
+## Things to keep in mind
+- CADdy Bid is currently in a pre-alpha testing phase. Some pricing logic, calculations, cost code totals, recommended hours, and estimate breakouts may still need adjustments.
+- Not all recommended hours have been finalized yet, and some estimate items, packages, install systems, or pricing details may still be missing.
+- Some workflows may change as we continue testing and improving the estimating process.
+- If something looks incorrect, breaks unexpectedly, feels confusing, or seems like it could be improved, please send feedback. Your feedback is very helpful as we continue building CADdy Bid.
+
+
 # CADdy Upcoming Features
 - Submittal-style PDFs with multiple drawings
 - Customization of shared projects from CADdy Lite
@@ -50,3 +71,20 @@
 - Collaborating on projects with friends
 - Multi-zone unit configuration
 - Shared project logs
+
+# CADdy Bid Upcoming Features
+- Project notes, including the ability to notify users when they are mentioned.
+- Automatic estimate save history and backup options.
+- Restore options from project and estimate logs.
+- Copying items between equipment, estimates, or breakout sections.
+- A dashboard with project summaries, estimate activity, and customizable widgets.
+- Improved project organization with separate views for active projects, turned-over projects, lost projects, and special-case projects.
+- Custom color options for project sections and statuses.
+- User preferences, such as hiding or showing specific columns.
+- Project-specific locations that can update travel and per diem rates automatically.
+- Proposal exports and additional estimate document exports.
+- Monday.com integration for linked project tracking.
+- Subcontractor invitation workflows, including contact lists, email invites, and status tracking.
+- Project file uploads and item photos.
+- Order status visibility for items in completed estimates.
+- Limited subcontractor access for updating install pricing and install system information.
