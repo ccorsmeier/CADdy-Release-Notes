@@ -1,8 +1,40 @@
+# CADdy v0.3.0-Beta
+@date: 2026-04-28
+## New Features
+- Project Page: Added backups, unit file versioning, application versioning, backwards compatibility support, preview updates, All Projects changes, submittals, and saved unit presets.
+- Selections Page: Fixed issues with VAV items.
+- Points Page: Fixed the missing custom point column.
+- Review Page: Added special-case red dot notifications, plugin selection on errors, and compile workflow updates.
+- AutoCAD: Added file fixes, general updates, and support for a notes section.
+
+# CADdy v0.2.3-Beta
+@date: 2026-03-11
+## Bug Fixes
+- Fixed additional issues found after v0.2.2-Beta.
+
+# CADdy v0.2.2-Beta
+@date: 2026-03-10
+## Bug Fixes
+- Fixed file encryption issues where files were being encrypted when they should not have been.
+
+# CADdy v0.2.1-Beta
+@date: 2026-03-06
+## Beta Features
+- Released the CADdy Desktop beta.
+- Added customization for wiring, points, bill of materials, sequence of operations, and drawings.
+- Added drawing notes that can be viewed later in AutoCAD.
+- Added customization for wiring blocks, block placements, wiring types, tags, and related wiring details.
+- Added editable points, including the ability to create custom points.
+- Added editable bill of materials items, including tags and descriptions.
+- Added editable sequence of operations sections, including the ability to add, remove, edit, and create custom content.
+- Added a review page before compiling.
+- Added project-linked equipment drawings with project information, backups, previews, and related project tools.
+
 # CADdy v0.1.7-Alpha
 @date: 2025-11-25
 ## New Features 
 - Added an input box for initials that automatically populates the lower section of all drawings. 
-- Added submittal creation & shared file upload for admin users. 
+- Added submittal creation and shared file upload for admin users. 
 ## Bug Fixes 
 - Wiring values now sync automatically during compilation, removing the need for ATTSYNC. 
 - Bill of Materials now populates in the correct location. 
@@ -13,7 +45,7 @@
 # CADdy v0.1.6-Alpha
 @date: 2025-11-06
 ## Bug Fixes
-- Generic users no longer have access to admin page.
+- Generic users no longer have access to the admin page.
 - Report bugs email now sends to caddy@brookssolutions.net.
 
 # CADdy v0.1.5-Alpha
@@ -62,12 +94,9 @@
 
 
 # CADdy Upcoming Features
-- Submittal-style PDFs with multiple drawings
-- Customization of shared projects from CADdy Lite
-- Project management
+- TBD
 
 # CADdy Lite Upcoming Features
-- Sharing project files to other CADdy users
 - Collaborating on projects with friends
 - Multi-zone unit configuration
 - Shared project logs
