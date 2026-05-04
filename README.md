@@ -76,21 +76,18 @@
 # CADdy Bid v0.0.1-Pre-Alpha
 @date: 2026-05-18
 ## Features
-- Project Management: Create projects and add one or more estimates under each project.
+- Project Management: Create projects and add one or more estimates to each project. Add project updates and tag users with @mentions to notify them by email.
 - Estimate Creation: Build estimates from scratch using Belimo and Distech parts.
 - Hours Pricing: Add labor hours to estimates with office-specific hourly rates.
 - Install Systems: Add and price install systems within an estimate.
-- Points Review: Review and adjust project points while building an estimate.
 - Cost Code Review: Review cost code totals to better understand how estimate pricing is distributed.
 - Warranty and Contingency: Update warranty and contingency values as part of the estimate pricing workflow.
-- AIA Breakout: Review an AIA-style breakout for project pricing.
 - Package Management: Create reusable packages of items to speed up estimate setup.
 - Admin Setup: Manage estimate items, packages, hours, install systems, and other pricing data used throughout CADdy Bid.
 ## Things to keep in mind
-- CADdy Bid is currently in a pre-alpha testing phase. Some pricing logic, calculations, cost code totals, recommended hours, and estimate breakouts may still need adjustments.
-- Not all recommended hours have been finalized yet, and some estimate items, packages, install systems, or pricing details may still be missing.
-- Some workflows may change as we continue testing and improving the estimating process.
-- If something looks incorrect, breaks unexpectedly, feels confusing, or seems like it could be improved, please send feedback. Your feedback is very helpful as we continue building CADdy Bid.
+- CADdy Bid is currently in a pre-alpha testing phase. Some pricing logic, calculations, cost codes, and recommended hours may still need adjustments.
+- Not all recommended hours have been finalized yet, and some packages, install systems, or pricing details may still be missing.
+- If something looks incorrect, breaks unexpectedly, feels confusing, or seems like it could be improved, please send feedback to caddy@brookssolutions.net
 
 
 # CADdy Upcoming Features
