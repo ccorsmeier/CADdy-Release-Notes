@@ -102,7 +102,6 @@
 - Shared project logs
 
 # CADdy Bid Upcoming Features
-- Project notes, including the ability to notify users when they are mentioned.
 - Estimate save history and backup options.
 - Restore options from project and estimate logs.
 - Copying items between equipment and breakout sections.
