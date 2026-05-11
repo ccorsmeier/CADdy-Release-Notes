@@ -1,7 +1,7 @@
 # CADdy v0.4.0-Beta
 @date: 2026-05-11
 ## New Features
-- Updates to Project and BOM pages to display part costs through the API.
+- Updates to Project and BOM pages to display part costs.
 - Backups are now stored more efficiently with cleanup tools.
 - Background processes reduced for lower CPU usage.
 - Updates to all VAV pages: Points, Sequence, and BOM have major updates to meet new standards.
