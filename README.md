@@ -91,16 +91,16 @@
 @date: 2026-06-03
 ## New Features
 - Added subcontractor invites:
-  1. Email invite with Brooks logo & colors
-  2. Set expiration dates; filter by company, location, or radius
-  3. Logs sent, opened, quote sent, etc.
-  4. Add new subcontractors right from the invite page
-  5. Admin tools to add, update, or delete subcontractors
+  - Email invite with Brooks logo & colors
+  - Set expiration dates; filter by company, location, or radius
+  - Logs sent, opened, quote sent, etc.
+  - Add new subcontractors right from the invite page
+  - Admin tools to add, update, or delete subcontractors
 - Added breakouts:
-  1. Create a breakout from existing equipment or as a standalone breakout
-  2. Breakout-only views in the estimate pages
-  3. Breakouts have separate hours and install
-  4. Options to include or exclude from the final estimate
+  - Create a breakout from existing equipment or as a standalone breakout
+  - Breakout-only views in the estimate pages
+  - Breakouts have separate hours and install
+  - Options to include or exclude from the final estimate
 - New project columns: bidders, bidder contacts, and owners — create a new contact, company, and role if needed (up to 3 contacts per column).
 - Added a locations tab to the Admin Users page; subcontractors can be linked to multiple locations, and locations now include zip codes.
 - Added group size override for controller hours.
