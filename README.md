@@ -87,21 +87,53 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
-# CADdy Bid v0.0.1-Pre-Alpha
-@date: 2026-05-18
-## Features
-- Project Management: Create projects and add one or more estimates to each project. Add project updates and tag users with @mentions to notify them by email.
-- Estimate Creation: Build estimates from scratch using Belimo and Distech parts.
-- Hours Pricing: Add labor hours to estimates with office-specific hourly rates.
-- Install Systems: Add and price install systems within an estimate.
-- Cost Code Review: Review cost code totals to better understand how estimate pricing is distributed.
-- Warranty and Contingency: Update warranty and contingency values as part of the estimate pricing workflow.
-- Package Management: Create reusable packages of items to speed up estimate setup.
-- Admin Setup: Manage estimate items, packages, hours, install systems, and other pricing data used throughout CADdy Bid.
-## Things to keep in mind
-- CADdy Bid is currently in a pre-alpha testing phase. Some pricing logic, calculations, cost codes, and recommended hours may still need adjustments.
-- Not all recommended hours have been finalized yet, and some packages, install systems, or pricing details may still be missing.
-- If something looks incorrect, breaks unexpectedly, feels confusing, or seems like it could be improved, please send feedback to caddy@brookssolutions.net
+# CADdy Bid v0.0.4-Pre-Alpha
+@date: 2026-06-03
+## New Features
+- Added subcontractor invites:
+  - Email invite with Brooks logo & colors
+  - Set expiration dates; filter by company, location, or radius
+  - Logs sent, opened, quote sent, etc.
+  - Add new subcontractors right from the invite page
+  - Admin tools to add, update, or delete subcontractors
+- Added breakouts:
+  - Create a breakout from existing equipment or as a standalone breakout
+  - Breakout-only views in the estimate pages
+  - Breakouts have separate hours and install
+  - Options to include or exclude from the final estimate
+- New project columns: bidders, bidder contacts, and owners — create a new contact, company, and role if needed (up to 3 contacts per column).
+- Added a locations tab to the Admin Users page; subcontractors can be linked to multiple locations, and locations now include zip codes.
+- Added group size override for controller hours.
+- Custom hours can now be added to the estimate hours summary.
+- Added export / import options for controller hours on the admin page.
+## Improvements
+- Double clicking an estimate item manufacturer lets you change it, with a custom option that saves a new manufacturer (auto-capitalized).
+- New install page dropdowns and inputs for subcontractors (3 max; will eventually prefill with invited subcontractors & their quotes).
+- Admin hours page now highlights rows for controllers missing hour rules, with new filters to find specific missing hours.
+- Added a warning on the estimates page when a controller has no recommended hours.
+
+# CADdy Bid v0.0.3-Pre-Alpha
+@date: 2026-05-26
+## New Features
+- Added warranty to the estimate summary page & PDF export (5% of materials).
+- Added warranty to the miscellaneous admin page (Misc Prices) where admins can change the percentage.
+- Quote numbers now auto-count per user (formatted with user initials, month, year, and user quote number — CCmmyy00X).
+- Added assigned people (sales, estimator, manager) to the projects page.
+- Added a "show assemblies" checkbox to the estimate package sidebar filter.
+## Improvements
+- Added actual hours & hourly rate to the "Cost Breakdown" on PDF export.
+- Separated submittals and O&Ms/As-builts in the Hours breakdown on PDF export.
+- Added install cost code to the PDF export.
+- Combined AIA material cost codes into one "materials" group on the estimate page and PDF export.
+- Added salesperson, quote number, and office to the top of the PDF export.
+- Made salesperson required when creating a new project.
+- Made quote number read-only on the projects page.
+- Made part number editable on the admin materials page.
+- When the project office is changed, it prompts you to update hourly rates for the new office in existing estimates.
+- Changed admin package filters to match the estimate items filter.
+## Bug Fixes
+- Adj $/Hour now actually saves.
+- Additional fixes: tutorial, logout redirect, tax added to AIA, and more.
 
 # CADdy Bid v0.0.2-Pre-Alpha
 @date: 2026-05-21
@@ -127,53 +159,21 @@
 ## Bug Fixes
 - Fixed package image upload bug.
 
-# CADdy Bid v0.0.3-Pre-Alpha
-@date: 2026-05-26
-## New Features
-- Added warranty to the estimate summary page & PDF export (5% of materials).
-- Added warranty to the miscellaneous admin page (Misc Prices) where admins can change the percentage.
-- Quote numbers now auto-count per user (formatted with user initials, month, year, and user quote number — CCmmyy00X).
-- Added assigned people (sales, estimator, manager) to the projects page.
-- Added a "show assemblies" checkbox to the estimate package sidebar filter.
-## Improvements
-- Added actual hours & hourly rate to the "Cost Breakdown" on PDF export.
-- Separated submittals and O&Ms/As-builts in the Hours breakdown on PDF export.
-- Added install cost code to the PDF export.
-- Combined AIA material cost codes into one "materials" group on the estimate page and PDF export.
-- Added salesperson, quote number, and office to the top of the PDF export.
-- Made salesperson required when creating a new project.
-- Made quote number read-only on the projects page.
-- Made part number editable on the admin materials page.
-- When the project office is changed, it prompts you to update hourly rates for the new office in existing estimates.
-- Changed admin package filters to match the estimate items filter.
-## Bug Fixes
-- Adj $/Hour now actually saves.
-- Additional fixes: tutorial, logout redirect, tax added to AIA, and more.
-
-# CADdy Bid v0.0.4-Pre-Alpha
-@date: 2026-06-03
-## New Features
-- Added subcontractor invites:
-  - Email invite with Brooks logo & colors
-  - Set expiration dates; filter by company, location, or radius
-  - Logs sent, opened, quote sent, etc.
-  - Add new subcontractors right from the invite page
-  - Admin tools to add, update, or delete subcontractors
-- Added breakouts:
-  - Create a breakout from existing equipment or as a standalone breakout
-  - Breakout-only views in the estimate pages
-  - Breakouts have separate hours and install
-  - Options to include or exclude from the final estimate
-- New project columns: bidders, bidder contacts, and owners — create a new contact, company, and role if needed (up to 3 contacts per column).
-- Added a locations tab to the Admin Users page; subcontractors can be linked to multiple locations, and locations now include zip codes.
-- Added group size override for controller hours.
-- Custom hours can now be added to the estimate hours summary.
-- Added export / import options for controller hours on the admin page.
-## Improvements
-- Double clicking an estimate item manufacturer lets you change it, with a custom option that saves a new manufacturer (auto-capitalized).
-- New install page dropdowns and inputs for subcontractors (3 max; will eventually prefill with invited subcontractors & their quotes).
-- Admin hours page now highlights rows for controllers missing hour rules, with new filters to find specific missing hours.
-- Added a warning on the estimates page when a controller has no recommended hours.
+# CADdy Bid v0.0.1-Pre-Alpha
+@date: 2026-05-18
+## Features
+- Project Management: Create projects and add one or more estimates to each project. Add project updates and tag users with @mentions to notify them by email.
+- Estimate Creation: Build estimates from scratch using Belimo and Distech parts.
+- Hours Pricing: Add labor hours to estimates with office-specific hourly rates.
+- Install Systems: Add and price install systems within an estimate.
+- Cost Code Review: Review cost code totals to better understand how estimate pricing is distributed.
+- Warranty and Contingency: Update warranty and contingency values as part of the estimate pricing workflow.
+- Package Management: Create reusable packages of items to speed up estimate setup.
+- Admin Setup: Manage estimate items, packages, hours, install systems, and other pricing data used throughout CADdy Bid.
+## Things to keep in mind
+- CADdy Bid is currently in a pre-alpha testing phase. Some pricing logic, calculations, cost codes, and recommended hours may still need adjustments.
+- Not all recommended hours have been finalized yet, and some packages, install systems, or pricing details may still be missing.
+- If something looks incorrect, breaks unexpectedly, feels confusing, or seems like it could be improved, please send feedback to caddy@brookssolutions.net
 
 
 # CADdy Upcoming Features
