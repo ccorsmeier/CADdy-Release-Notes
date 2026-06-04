@@ -105,7 +105,8 @@
 - Added a locations tab to the Admin Users page; subcontractors can be linked to multiple locations, and locations now include zip codes.
 - Added group size override for controller hours.
 - Custom hours can now be added to the estimate hours summary.
-- Added export / import options for controller hours on the admin page.
+- Added export / import options for controller hours and materials on the admin pages.
+- On the admin materials page, you can now hide columns (with a "show hidden columns" option) and adjust the page size dynamically.
 ## Improvements
 - Double clicking an estimate item manufacturer lets you change it, with a custom option that saves a new manufacturer (auto-capitalized).
 - New install page dropdowns and inputs for subcontractors (3 max; will eventually prefill with invited subcontractors & their quotes).
