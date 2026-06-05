@@ -87,6 +87,17 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.0.5-Pre-Alpha
+@date: 2026-06-05
+## New Features
+- Right click an estimate item to request adding it to the master BOM list.
+- New admin page to approve or deny requested BOM items, with an automatic email sent to whoever made the request.
+- Added export / import for material items on the admin materials page — export items, edit any part information, and import the changes back in.
+- Added a right click option to move an item to a new section on the admin materials page (works with single or multi-select).
+- Added a category option when creating a new material item.
+## Improvements
+- On the admin materials page, you can now hide columns (with a "show hidden columns" option) and adjust the page size dynamically.
+
 # CADdy Bid v0.0.4-Pre-Alpha
 @date: 2026-06-03
 ## New Features
