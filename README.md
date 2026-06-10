@@ -88,13 +88,14 @@
 
 
 # CADdy Bid v0.0.5-Pre-Alpha
-@date: 2026-06-05
+@date: 2026-06-10
 ## New Features
 - Right click an estimate item to request adding it to the master BOM list.
 - New admin page to approve or deny requested BOM items, with an automatic email sent to whoever made the request.
-- Added export / import for material items on the admin materials page — export items, edit any part information, and import the changes back in.
+- Added export / import for material items on the admin materials page — export items, edit any part information, and import the changes back in. The update tab now also accepts Belimo or Distech parts sheets and Brooks BOMs directly.
 - Added a right click option to move an item to a new section on the admin materials page (works with single or multi-select).
-- Added a category option when creating a new material item.
+- New feedback page for users to submit issues, bugs, or suggestions.
+- New admin page to view submitted feedback, with statuses for open, in progress, and closed.
 ## Improvements
 - On the admin materials page, you can now hide columns (with a "show hidden columns" option) and adjust the page size dynamically.
 
@@ -105,8 +106,8 @@
   - Email invite with Brooks logo & colors
   - Set expiration dates; filter by company, location, or radius
   - Logs sent, opened, quote sent, etc.
-  - Add new subcontractors right from the invite page
-  - Admin tools to add, update, or delete subcontractors
+  - Prefills new subcontractor quotes in the install tab
+  - Add new subcontractors when inviting them
 - Added breakouts:
   - Create a breakout from existing equipment or as a standalone breakout
   - Breakout-only views in the estimate pages
