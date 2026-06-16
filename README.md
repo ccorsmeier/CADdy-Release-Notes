@@ -87,6 +87,21 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.0.6-Pre-Alpha
+@date: 2026-06-16
+## New Features
+- Accounts admin pg: Checkout questions, subcontractors, and locations. Will eventually add more customer management here.
+- Lessons admin pg: View submitted lessons learned by estimators using the checkout sheet, can be general or by-client. Also manage lesson subjects here.
+- Automations admin pg: Admins can set up email notifications when status changes are made to projects.
+- Checkout sheets:
+- Submitted when project is switched to “Ready for Review”, but estimators can add to it on the estimate page or using the action icon on projects page.
+- Opens as a separate window for them to fill out.
+- Saves as they go, with optional notes for each checkbox.
+- Lessons learned can be added, which are optionally linked to a client.
+- Marked with a green checkbox once submitted. Click this indicator to view the submitted answers. Reopens if the project is no longer Ready for Review.
+## Improvements
+- Package/Assembly items can have decimals quantities up to 2 decimal places
+
 # CADdy Bid v0.0.5-Pre-Alpha
 @date: 2026-06-10
 ## New Features
