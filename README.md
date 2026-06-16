@@ -213,7 +213,7 @@
 - Shared project logs
 
 # CADdy Bid Upcoming Features
-- Service view.
+- Service view with BuildOps information.
 - Estimate save history and backup options.
 - Restore options from project and estimate logs.
 - A dashboard with project summaries, estimate activity, and customizable widgets.
