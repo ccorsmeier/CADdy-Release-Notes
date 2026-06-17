@@ -101,6 +101,12 @@
 - Marked with a green checkbox once submitted. Click this indicator to view the submitted answers. Reopens if the project is no longer Ready for Review.
 ## Improvements
 - Package/Assembly items can have decimals quantities up to 2 decimal places
+- Updated projects page: added estimator and salesperson columns, renamed contacts, fixed minimum width to show all column headers.
+- Admin hours changes: Added other hours (commissioning, etc) to the export, added a warning for hours that don’t have a group size but have set duplicate hours. Still allows save.
+- Changed the generated quote number to use the salesperson instead of the current user.
+- Split assemblies and packages into their own separate admin pages with different admin permissions.
+- Added a right click option to view assembly items in the sidebar when creating packages.
+
 
 # CADdy Bid v0.0.5-Pre-Alpha
 @date: 2026-06-10
