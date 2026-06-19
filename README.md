@@ -87,6 +87,15 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.0-Alpha
+@date: 2026-06-22
+## New Features
+- Added a right click option to view assembly items in the sidebar when creating estimates.
+- Added companies and people management in Accounts admin page.
+- Added all BuildOps clients to the DB.
+- Added search bar to dropdowns that list companies or people from accounts.
+- Updated subcontractor invite page to have better filters for finding accounts.
+
 # CADdy Bid v0.0.6-Pre-Alpha
 @date: 2026-06-16
 ## New Features
@@ -106,7 +115,6 @@
 - Changed the generated quote number to use the salesperson instead of the current user.
 - Split assemblies and packages into their own separate admin pages with different admin permissions.
 - Added a right click option to view assembly items in the sidebar when creating packages.
-
 
 # CADdy Bid v0.0.5-Pre-Alpha
 @date: 2026-06-10
