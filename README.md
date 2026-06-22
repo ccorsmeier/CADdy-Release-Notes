@@ -95,6 +95,9 @@
 - Added all BuildOps clients to the DB.
 - Added search bar to dropdowns that list companies or people from accounts.
 - Updated subcontractor invite page to have better filters for finding accounts.
+- Assemblies can have hours attached to them now.
+- Added warnings to admin pages if you forget to save and try to move tabs or close the page.
+- Added a new Hours admin page with the ability to create, edit, and delete hour entries including cost code, cost, and rate.
 
 # CADdy Bid v0.0.6-Pre-Alpha
 @date: 2026-06-16
