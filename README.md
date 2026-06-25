@@ -87,6 +87,20 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.1-Alpha
+@date: 2026-06-25
+## Admin Updates
+- Renamed "Hours" to "Labor" across the app.
+- Added multiselect for offices when creating a new labor row.
+- Added multiselect to edit the cost or rate of multiple labor rows at once.
+- Added drag and drop to rearrange rows on the admin Labor page.
+- Split Labor into Construction and Service tabs, with admin permissions split between the two.
+- Added a Client Labor table under Service Labor to set client rates per company, per office.
+- Construction Labor now always uses cost for pricing, with rate removed from the Construction Rates page.
+- Added an Admin Labor Offices column on the Users page to set which offices a user can edit labor rates for.
+- Added a Default Perms tab on the Admin Users page to set the default admin permissions for each role, still changeable per user on the Permissions tab.
+- Added right-click to delete a user, fully removing access (disabling a user still left them read-only access to the Projects page).
+
 # CADdy Bid v0.1.0-Alpha
 @date: 2026-06-22
 ## New Features
