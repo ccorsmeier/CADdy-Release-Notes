@@ -100,6 +100,7 @@
 - Added an Admin Labor Offices column on the Users page to set which offices a user can edit labor rates for.
 - Added a Default Perms tab on the Admin Users page to set the default admin permissions for each role, still changeable per user on the Permissions tab.
 - Added right-click to delete a user, fully removing access (disabling a user still left them read-only access to the Projects page).
+- Bug fixes: Log page now shows 12 logs per page, subcontractors are created through an existing person.
 
 # CADdy Bid v0.1.0-Alpha
 @date: 2026-06-22
