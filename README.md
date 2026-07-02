@@ -87,6 +87,14 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.2-Alpha
+@date: 2026-07-02
+## New Features
+- Added a custom option to the salesperson field so you can type a name that isn't in the list (the quote number falls back to the estimator's initials and quote number).
+- Moved the quote number to the bottom of the Create Project modal, since it's tied to the salesperson.
+- Widened project column widths for better readability.
+- Changed the admin Packages equipment type filter to a dropdown.
+
 # CADdy Bid v0.1.1-Alpha
 @date: 2026-06-25
 ## Admin Updates
