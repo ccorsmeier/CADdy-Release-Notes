@@ -260,13 +260,12 @@
 
 # CADdy Bid Upcoming Features
 - Service view with BuildOps information.
+- Sales view with metrics, project information, and action handling.
+- Outlook Add-In to link email information to project follow ups or updates, and sales actions.
 - Estimate save history and backup options.
 - Restore options from project and estimate logs.
-- A dashboard with project summaries, estimate activity, and customizable widgets.
 - Improved project organization with separate views for active projects, turned-over projects, lost projects, and special-case projects.
 - User preferences, such as custom color options for project sections and statuses, or the ability to hide specific columns.
 - Custom project locations that can update per diem travel rates automatically.
 - Proposal exports and additional estimate document exports.
-- Monday.com integration for linked project tracking.
-- Project file uploads and item photos.
-- Order status visibility for items in completed estimates.
+- Project file uploads.
