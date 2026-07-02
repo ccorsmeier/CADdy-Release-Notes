@@ -90,10 +90,16 @@
 # CADdy Bid v0.1.2-Alpha
 @date: 2026-07-02
 ## New Features
-- Added a custom option to the salesperson field so you can type a name that isn't in the list (the quote number falls back to the estimator's initials and quote number).
-- Moved the quote number to the bottom of the Create Project modal, since it's tied to the salesperson.
-- Widened project column widths for better readability.
-- Changed the admin Packages equipment type filter to a dropdown.
+- You can now create a new salesperson or estimator if they aren't in the database yet by entering their first name, last name, and email.
+- You can now assign up to 3 estimators or salespeople to a single project.
+- Moved the quote number to the bottom of the Create Project modal, since it's tied to the salesperson. It now uses the first salesperson listed.
+- Widened the project column widths for better readability and the Project Name is now always visible when scrolling.
+- Added a set of subcontractor companies to the install page (the invite page notes that we don't have contacts for these yet).
+## Admin Updates
+- Reworked the Accounts page so both companies and people can be set as subcontractors, for use on both the install and invite pages.
+- Added filters, collapsible People and Companies sections, and column sorting to the Accounts page.
+- The Packages equipment type filter is now a dropdown.
+
 
 # CADdy Bid v0.1.1-Alpha
 @date: 2026-06-25
