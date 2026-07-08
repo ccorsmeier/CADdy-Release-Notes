@@ -87,6 +87,21 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.3-Alpha
+@date: 2026-07-08
+## New Features
+- Subcontractor invite emails now list the equipment count and the devices under each item, so subs can see exactly what's included.
+- You can now reorder items on the estimate by dragging and dropping them.
+- The salesperson is now emailed automatically when a subcontractor invite is sent and again when the subcontractor submits their quote.
+- The estimate items filter now lists categories alphabetically and includes a search bar. Active filters are clearly marked so you can tell at a glance when one is applied, and a new Clear Filters button resets them all at once.
+- New estimates are now prepopulated with the project name, and revision numbers are assigned in the order the estimates are created.
+- Fixed package search bar to search package names / descriptions.
+## Admin Updates
+- Added a new role picker for testing, so admins can preview the app as a different role.
+- The admin materials table no longer has its own scrollbar and now fills the full width of the page.
+- Added an All option to the items-per-page setting so you can view every item on a single page.
+- Added new description column to the Packages page.
+
 # CADdy Bid v0.1.2-Alpha
 @date: 2026-07-02
 ## New Features
@@ -99,7 +114,6 @@
 - Reworked the Accounts page so both companies and people can be set as subcontractors, for use on both the install and invite pages.
 - Added filters, collapsible People and Companies sections, and column sorting to the Accounts page.
 - The Packages equipment type filter is now a dropdown.
-
 
 # CADdy Bid v0.1.1-Alpha
 @date: 2026-06-25
