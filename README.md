@@ -86,12 +86,15 @@
 - We’d also love your thoughts on speed and workflow. Does CADdy help you get things done faster than your current process? If not, please let us know what could make the workflow smoother.
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
+
 # CADdy Bid v0.1.4-Beta
 @date: 2026-07-14
 ## New Features
 - New Sales section with pipeline pages, weekly performance, and metrics dashboards, including a contractor-revenue chart and an Export button to pull a report of the data.
 - Sales Actions board with your own actions plus collaborator actions, group-by-status, drag-and-drop reordering, column sorting, right-click to delete, and attendee/company filters.
-- Threaded action updates with @-mention tagging, and a dropdown to view other reps' activity.
+- A new Communications tab on the updates modal for both actions and projects, where linked emails and phone numbers can be viewed.
+- A new Info tab on the updates modal that shows project details and any linked actions.
+- Threaded action updates with @-mention tagging.
 - A new Sales Admin page to manage action options and follow-up reminder days.
 - Email notifications for action date changes, collaborator assignments, and a morning reminder for upcoming actions.
 - Status tabs across the top of the projects page, plus an "Other" dropdown.
@@ -110,6 +113,7 @@
 - The Admin Materials page-size switcher now shows a loading spinner.
 - Wider, more readable column widths on the projects page.
 - Various styling fixes across the sales, install, and estimate pages.
+- Added mobile views for projects and sales pages.
 
 # CADdy Bid v0.1.3-Alpha
 @date: 2026-07-08
