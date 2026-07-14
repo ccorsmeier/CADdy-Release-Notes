@@ -86,6 +86,30 @@
 - We’d also love your thoughts on speed and workflow. Does CADdy help you get things done faster than your current process? If not, please let us know what could make the workflow smoother.
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
+# CADdy Bid v0.1.4-Beta
+@date: 2026-07-14
+## New Features
+- New Sales section with pipeline pages, weekly performance, and metrics dashboards, including a contractor-revenue chart and an Export button to pull a report of the data.
+- Sales Actions board with your own actions plus collaborator actions, group-by-status, drag-and-drop reordering, column sorting, right-click to delete, and attendee/company filters.
+- Threaded action updates with @-mention tagging, and a dropdown to view other reps' activity.
+- A new Sales Admin page to manage action options and follow-up reminder days.
+- Email notifications for action date changes, collaborator assignments, and a morning reminder for upcoming actions.
+- Status tabs across the top of the projects page, plus an "Other" dropdown.
+- Separate sales and estimator views of the projects page, with a trimmed-down set of columns for estimators and a read-only estimates view for salesmen.
+- Support for multiple salespeople and estimators on a single project.
+- Follow-up tracking: completing an action linked to a job can close that project's follow-up, and follow-ups automatically flag as "Needed" after two weeks of no activity.
+- The project updates modal has been reworked into Updates and Follow-ups, with a new Info tab.
+- A new Admin Users Deleted tab to fully remove a user's access, or restore and view deleted users who still show on old projects, plus clearer enabled/disabled indicators.
+- An admin release scheduling page for maintenance banners, plus a new-release alert on the dashboard.
+- A new homepage with a left sidebar for easier navigation.
+## Bug Fixes
+- The sales page now reads loss dates correctly, and the salesperson dropdown only lists salespeople.
+- Fixed chart and table refresh issues on the sales metrics pages.
+- Collaborators can no longer edit an action's section, date, time, or status.
+- Deleted users can no longer log in, and inactive users now see a blank dashboard instead of restricted pages.
+- The Admin Materials page-size switcher now shows a loading spinner.
+- Wider, more readable column widths on the projects page.
+- Various styling fixes across the sales, install, and estimate pages.
 
 # CADdy Bid v0.1.3-Alpha
 @date: 2026-07-08
