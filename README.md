@@ -87,7 +87,7 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
-# CADdy Bid v0.1.4-Beta
+# CADdy Bid v0.1.4-Alpha
 @date: 2026-07-14
 ## New Features
 - New Sales section with pipeline pages, weekly performance, and metrics dashboards, including a contractor-revenue chart and an Export button to pull a report of the data.
