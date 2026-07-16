@@ -94,9 +94,10 @@
 - Updated subcontractor list — Refreshed the subcontractor contacts used throughout the app.
 - Back-to-top button — A quick "back to top" button now appears while scrolling long estimate pages.
 ## Admin Updates
-- Redesigned admin catalog page — The old "Materials" page is now "Catalog," with clickable subcategories to drill through. Uploads now automatically create tabs, add categories, and move items between categories.
+- Redesigned admin catalog page — The old "Materials" page is now "Catalog," with clickable subcategories. Uploads now automatically create tabs, add categories, and move items between categories.
 ## Bug Fixes
 - Fixed the /invite page — The invite page now works correctly with the updated subcontractor contacts.
+- Fixed scrollbar on estimate / sidebar.
 
 # CADdy Bid v0.1.4-Alpha
 @date: 2026-07-14
