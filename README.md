@@ -87,6 +87,33 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.6-Alpha
+@date: 2026-07-21
+## New Features
+- All projects imported from Monday, including updates, values, dates, people, etc.
+- Estimate review (Ready for Review): estimates sent to sales now go through a manager review, with email notifications to the manager, estimator, and sales.
+- Bid approval process (two-stage): bids now go through a final approval with separate Legal and Manager sign-offs.
+- New Approvals page with new approval roles and status flags.
+- New "Ready for Approval" status in the project flow.
+- Post-win checklist: a checklist must be filled out before a bid goes to approval, including marking the winning bidder on the job.
+- Private assemblies: create your own private assemblies.
+- Invite page office filter: filter the subcontractor list by office when inviting.
+## Admin Updates
+- New admin Checklists page to configure checkout questions per type (Sales, CO, PM).
+- New admin Sales settings to route review and approval emails.
+- Admin catalog Categories tab bug fixes.
+- Admin Subcontractors tab: link subcontractor people to offices and set their primary company.
+- Admin Assemblies: make assemblies company-wide or private, plus a "show all" scope view to see everyone's assemblies.
+- Info popups on names: click a company name to see all its people, or click a person's name to see their companies.
+- Add Question modal now shows which checklist type you're adding to (e.g. "Add Sales Question").
+## Bug Fixes
+- Sales checklist now resets when a project moves back before "Ready for Approval," so Won re-locks and the checklist must be re-submitted and re-approved.
+- Re-inviting now keeps the invite's own expiry date instead of defaulting to the project bid date, which could already be in the past.
+- Approval checklist now opens in its own window.
+- Fixed logging on the projects page.
+- Restrictions so a bid can't move past Ready for Review or to Won before the required review and approval steps are complete.
+- Styling fixes across the review, approval, and checklist screens
+
 # CADdy Bid v0.1.5-Alpha
 @date: 2026-07-16
 ## New Features
