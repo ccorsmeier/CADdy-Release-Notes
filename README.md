@@ -87,6 +87,27 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.7-Alpha
+@date: 2026-07-22
+## New Features
+- Multi-select project filters: filter projects by multiple values at once.
+- Assembly requests for estimators: estimators can now request assemblies (alongside catalog requests).
+- Estimate upload: estimators can upload an existing estimates / estimate files, and managers can view it for approval.
+- Review Estimate Checklist: new button for managers to go straight to the review page for estimates in review.
+- New BuildOps flow: once a job is approved by both manager and legal and moves to Won, BuildOps users can view the AIA and mark when the job is submitted into BuildOps.
+- Subcontractor invites for estimators: finished invite page letting estimators invite subcontractors with document upload.
+- "See Revisions" status: sales can easily see when legal marks a job as needing revisions.
+## Bug Fixes
+- Approval emails now send to managers every time legal marks a job "not ready" or "see revisions".
+- Fixed the "submit for approval" modal and flow so it works for existing jobs in sent to customer.
+- Tutorial bug fixed.
+## Admin Updates
+- Admin User Requests page now has a separate tab splitting catalog requests from assembly requests.
+- Admin page list re-ordered alphabetically.
+- Removed the approved / denied tabs in approval tab.
+- New-user onboarding: a Brooks user signing in will now need approval from an admin.
+- Tutorials turned off for now until they're updated.
+
 # CADdy Bid v0.1.6-Alpha
 @date: 2026-07-21
 ## New Features
