@@ -90,12 +90,13 @@
 # CADdy Bid v0.1.7-Alpha
 @date: 2026-07-22
 ## New Features
-- Multi-select project filters: filter projects by multiple values at once.
+- CADdy Outlook Add-In has been released for salesmen to log emails, updates, follow ups, and more.
+- New BuildOps flow: once a job is approved by both manager and legal and moves to Won, BuildOps users can view the AIA and mark when the job is submitted into BuildOps.
 - Assembly requests for estimators: estimators can now request assemblies (alongside catalog requests).
 - Estimate upload: estimators can upload an existing estimates / estimate files, and managers can view it for approval.
-- Review Estimate Checklist: new button for managers to go straight to the review page for estimates in review.
-- New BuildOps flow: once a job is approved by both manager and legal and moves to Won, BuildOps users can view the AIA and mark when the job is submitted into BuildOps.
 - Subcontractor invites for estimators: finished invite page letting estimators invite subcontractors with document upload.
+- Multi-select project filters: filter projects by multiple values at once.
+- Review Estimate Checklist: new button for managers to go straight to the review page for estimates in review.
 - "See Revisions" status: sales can easily see when legal marks a job as needing revisions.
 ## Bug Fixes
 - Approval emails now send to managers every time legal marks a job "not ready" or "see revisions".
@@ -361,13 +362,10 @@
 - Shared project logs
 
 # CADdy Bid Upcoming Features
+- Sales commissions page.
+- Package and assembly categories and grouping.
 - Service view with BuildOps information.
-- Sales view with metrics, project information, and action handling.
-- Outlook Add-In to link email information to project follow ups or updates, and sales actions.
-- Estimate save history and backup options.
+- Estimate backup options.
 - Restore options from project and estimate logs.
-- Improved project organization with separate views for active projects, turned-over projects, lost projects, and special-case projects.
 - User preferences, such as custom color options for project sections and statuses, or the ability to hide specific columns.
 - Custom project locations that can update per diem travel rates automatically.
-- Proposal exports and additional estimate document exports.
-- Project file uploads.
