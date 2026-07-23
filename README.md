@@ -90,7 +90,6 @@
 # CADdy Bid v0.1.7-Alpha
 @date: 2026-07-22
 ## New Features
-- CADdy Outlook Add-In has been released for salesmen to log emails, updates, follow ups, and more.
 - New BuildOps flow: once a job is approved by both manager and legal and moves to Won, BuildOps users can view the AIA and mark when the job is submitted into BuildOps.
 - Assembly requests for estimators: estimators can now request assemblies (alongside catalog requests).
 - Estimate upload: estimators can upload an existing estimates / estimate files, and managers can view it for approval.
