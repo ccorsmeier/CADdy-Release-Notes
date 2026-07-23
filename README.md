@@ -87,6 +87,24 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.8-Alpha
+@date: 2026-07-23
+## New Features
+- Package & Assembly categories and estimate trees. Packages and assemblies now support nested categories, with a category tree view on the estimate page. The Packages and Assemblies views on the estimate page are now split into their own sections.
+- Multi-select projects → export to Excel. Ctrl+click to select multiple projects on the Projects page, then right-click to copy the selection into an Excel document.
+- Quick links from the project overview for faster navigation.
+- Full PDF download for BuildOps insert (previously only the AIA document was available).
+- Larger max upload size for estimate files.
+- More detailed job status updates in Approvals, plus an "approved" flag for jobs marked Won.
+## Bug Fixes
+- Dashboard close dates display corrected.
+- Scrollbar now stays in place when new estimates are created.
+## Admin Updates
+- Package & Assembly upload/download. Admins can now upload and download packages and assemblies via Excel.
+- New Estimate Manager role. Fixed the manager role and added a dedicated Estimate Manager role to control who can review and approve estimates.
+- Admin Users default permissions fixed so users now receive the correct default admin permissions based on their role.
+- Construction vs. Service labor now separated correctly, so Service labor only shows SER- offices.
+
 # CADdy Bid v0.1.7-Alpha
 @date: 2026-07-22
 ## New Features
