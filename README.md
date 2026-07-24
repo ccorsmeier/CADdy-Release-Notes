@@ -87,6 +87,18 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.1.9-Alpha
+@date: 2026-07-24
+## New Features
+- Sort by won date on the Projects page (won status).
+- "Won" split into individual years for clearer tracking.
+## Bug Fixes
+- Sales Actions performance improved; large dropdowns shortened/optimized so they load faster.
+- Sales Actions bug fixe: marking linked follow-ups & projects page link.
+## Admin Updates
+- Estimate review submission restricted so only estimators can submit their own estimate for review by Chris.
+- Metrics "open" status now driven by a DB flag instead of hardcoded statuses.
+
 # CADdy Bid v0.1.8-Alpha
 @date: 2026-07-23
 ## New Features
