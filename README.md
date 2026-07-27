@@ -88,16 +88,23 @@
 
 
 # CADdy Bid v0.1.9-Alpha
-@date: 2026-07-24
+@date: 2026-07-27
 ## New Features
-- Sort by won date on the Projects page (won status).
-- "Won" split into individual years for clearer tracking.
+- Edit multiple projects at once — Select several projects (ctrl+click or shift+click) and apply a change to all of them in one step, instead of editing each one individually.
+- Sort by won date — You can now sort projects by their won date on the Projects page.
+- "Won" split by year — The "Won" status is now broken out into individual years for clearer tracking.
+- Project Logs — A new Logs button on the Projects page shows a history of changes made to projects, with search and filters.
+- Added a scrollbar to the project status area.
 ## Bug Fixes
-- Sales Actions performance improved; large dropdowns shortened/optimized so they load faster.
-- Sales Actions bug fixe: marking linked follow-ups & projects page link.
-## Admin Updates
-- Estimate review submission restricted so only estimators can submit their own estimate for review by Chris.
-- Metrics "open" status now driven by a DB flag instead of hardcoded statuses.
+- Sales Actions loads faster — large dropdowns were shortened and optimized.
+- Fixed Sales Action bugs with marking linked follow-ups and the Projects page link.
+- Fixed a refresh-related error.
+## Admin / Manager Updates
+- Estimate review submissions are now restricted so only estimators can submit their own estimate for review by Chris.
+- Approval reminder emails — Managers will now get a daily reminder email for jobs that are waiting on you to review or approve.
+- Approval Logs — A new Logs button on the Approvals page shows recent approval activity across all jobs.
+- Gross margin on approval cards — Approval cards now show the GM% right next to the bid amount.
+- Better BuildOps handling for Monday jobs — When a job doesn't have an estimate in CADdy yet, BuildOps now gets a clear explanation with links to the Monday item and the SharePoint files, instead of an error.
 
 # CADdy Bid v0.1.8-Alpha
 @date: 2026-07-23
