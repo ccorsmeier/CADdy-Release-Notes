@@ -90,9 +90,12 @@
 # CADdy Bid v0.2.0-Alpha
 @date: 2026-07-28
 ## New Features
-- Subcontractors can now say "No Bid" on an invite. If a sub isn't going to bid, they can decline right from the invite page and leave a quick reason. You'll get an email letting you know, and their status shows as "Declined" on your invite list. Subs who decline no longer show up as install options, and their "Re-Invite" button is turned off.
-- Sales users get personalized dashboard tiles. The Open projects, Missing close dates, and Follow-ups needed tiles now take you straight to your projects.
+- Subcontractors can now say "No Bid" on an invite. If a sub isn't going to bid, they can decline right from the invite page and leave a quick reason. You'll get an email letting you know and their status shows as "Declined" on your invite list. Subs who decline no longer show up as install options, and their "Re-Invite" button is turned off.
+- Sales users get personalized dashboard tiles. The Missing close dates, Follow-ups needed, and Upcoming action tiles now take you straight to your projects.
+- Sales users can now delete projects with estimates, which was previously blocked.
+- Deleting a project now asks you to type a confirmation first.
 ## Bug Fixes
+- Sales dashboard "missing close dates" now displays the correct number.
 - One person can now be both the estimator and salesperson on a project.
 - The estimator and salesperson lists now only show people who actually have that role, so they're easier to pick from. Anyone already assigned still stays in the list.
 - Search bar added to the Lessons Learned owner list, and the owner box only shows up once you pick "Owner" as the subject.
