@@ -86,16 +86,25 @@
 - We’d also love your thoughts on speed and workflow. Does CADdy help you get things done faster than your current process? If not, please let us know what could make the workflow smoother.
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
+
 # CADdy Bid v0.2.1-Alpha
 @date: 2026-07-29
 ## New Features
-- BuildOps now requires a Project / Contract Number to mark a job "Job Setup Complete." It saves onto the project.
 - "Go to project" button in the project logs jumps you straight to that project's row.
+- The Values column now shows for estimators and sales, and both roles can change them.
 ## Bug Fixes
 - Faster AIA PDF exports, and automatic exports no longer get stuck on the "prices are outdated" prompt.
 - Fixed a blank pie slice on summary PDFs when everything was in one category.
 - Projects no longer briefly disappear after checkout moves them to a new status tab.
 - Cleaner project logs: links, contact and winning-bidder changes, review decisions, and checklist events now read properly, with tidy dates and trimmed notes.
+- Clearer message when a salesmen tries to submit a job for review.
+- Add New Estimate button now hides on in-review/approved projects and comes back if moved back.
+- Imported Monday jobs now follow the normal approval gate instead of skipping it.
+- Package naming: spaces in a custom controller code now become underscores.
+## Admin / Manager Updates
+- BuildOps now requires a Project / Contract Number to mark a job "Job Setup Complete." It saves onto the project.
+- Estimate files now show on approval cards and download in one click, and the "no estimate yet" popup points you to them too.
+- Fuller Approval Logs: now shows every Legal and Manager decision, not just submissions and approvals.
 
 # CADdy Bid v0.2.0-Alpha
 @date: 2026-07-28
