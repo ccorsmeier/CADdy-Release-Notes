@@ -87,6 +87,27 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.2.2-Alpha
+@date: 2026-07-30
+## New Features
+- Add more documents to an invite after it's already sent, then email the subcontractor to let them know.
+- Invite expiration dates now change color as they get close, yellow when expiring soon, red once expired.
+- Estimators are now included on the confirmation email when their estimate is approved and the job moves to Sent to Sales.
+- You can now increase assembly quantities while estimating.
+- Estimate managers can now edit estimates while they're in review, instead of having to deny them back. Edits autosave; estimates only lock once approved.
+- The estimate manager can now download a PDF summary of an estimate while reviewing it.
+- New Documents column on the Invite page shows how many files each subcontractor can see, with a button to view the list.
+- New Hours column on the Projects page (PEG / PM / Tech), auto-filled from the latest estimate and editable by anyone with edit access.
+- "Back to top" button on the Projects page.
+## Bug Fixes / Improvements
+- File upload limit raised to 75MB.
+- Fewer duplicate emails to salesmen: inviting several subcontractors at once now sends one summary email instead of one per invite.
+- Fixed the status dropdown closing when you scrolled inside it.
+- Projects page now remembers your scroll position on refresh.
+## Admin Updates
+- New PEG / PM / Tech settings on the admin Labor page that drive the new Hours column on the Projects page.
+- The catalog-approval email now shows any adjustments the admin made to the request before approving.
+
 # CADdy Bid v0.2.1-Alpha
 @date: 2026-07-29
 ## New Features
