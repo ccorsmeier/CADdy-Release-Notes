@@ -100,7 +100,7 @@
 - New Hours column on the Projects page (PEG / PM / Tech), auto-filled from the latest estimate and editable by anyone with edit access.
 - "Back to top" button on the Projects page.
 ## Bug Fixes / Improvements
-- File upload limit raised to 75MB.
+- File upload limit raised to 250MB.
 - Fewer duplicate emails to salesmen: inviting several subcontractors at once now sends one summary email instead of one per invite.
 - Fixed the status dropdown closing when you scrolled inside it.
 - Projects page now remembers your scroll position on refresh.
