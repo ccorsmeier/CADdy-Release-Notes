@@ -87,6 +87,34 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.2.5-Beta
+@date: 2026-08-11
+## New Features
+- Change orders. You can now create a Change Order tied to the main project. It carries moves through the normal job flow, and once won, it is added to the original project. If it is under $50,000 it can skip the estimate approval and go straight to manager/legal approval.
+- Estimate files now show who added them and when.
+- Bulk select for assemblies to make copying items over easier.
+- Subcontractor invite emails now include the salesperson and estimator's contact info.
+- Upload folders to a subcontractor invite, with per-folder downloads for subs.
+- Add notes to the subcontractor invite email.
+- Color outlines on the Projects page show each project's salesperson and estimator.
+- Update counts now always show on Projects, Sales Actions, and Approvals, read or not.
+- Follow-ups now trigger at 30 days.
+## Bug Fixes / Improvements
+- Labor rate fix. If an estimate's labor rates are out of date, it now asks the estimator whether to update them next time they open it.
+- Fixed a dropdown overlap bug and a loading spinner showing over the wrong table in the estimate.
+- Project bid amount and GM% now come from the most recent approved estimate, not just the newest.
+- No more new estimates on closed or already-sent jobs (Sent to Sales, Sent to Customer, In Approval, or closed statuses).
+- Fixed the "This week" sales metrics option breaking when switching weeks.
+- Fixed assembly quantity changes not saving.
+- Re-inviting subcontractors no longer spams the salesperson with emails.
+- Fixed the breakout "copy to" button.
+- Estimator dashboard now shows only estimates from the past 2 weeks.
+- Fixed the add-in not working.
+## Admin Updates
+- Choose which statuses count toward follow-ups (e.g. Sent to Customer, Owner Direct Quote).
+- Set the salesperson/estimator outline colors shown on the Projects page.
+- Fixed a Service Rates admin error.
+
 # CADdy Bid v0.2.2-Alpha
 @date: 2026-07-30
 ## New Features
