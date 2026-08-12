@@ -87,6 +87,17 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.2.6-Beta
+@date: 2026-08-12
+## New Features
+- New PM (Preventative Maintenance) project type.
+- Back button on estimates that returns you to the Projects page with the parent project focused and expanded.
+- Loading screen for file uploads, so you can see progress while files upload.
+## Bug Fixes
+- Fixed files sometimes not uploading.
+- Fixed hourly rates occasionally getting set to $0.
+- Fixed issue with estimate systems not deleting.
+
 # CADdy Bid v0.2.5-Beta
 @date: 2026-08-11
 ## New Features
