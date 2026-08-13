@@ -87,6 +87,15 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.2.7-Beta
+@date: 2026-08-13
+## New Features
+- Subcontractor invites no longer expire on a timer; they stay open until the job is Won, Lost, No Bid, On Hold, or Dead.
+- Invites now show the job's current status to subcontractors, including on expired invites.
+- Moving a job to No Bid now sends an email notification to sales and/or estimator.
+## Admin Updates
+- New 7am daily email to the catalog request reviewer with the count of pending catalog and assembly requests.
+
 # CADdy Bid v0.2.6-Beta
 @date: 2026-08-12
 ## New Features
