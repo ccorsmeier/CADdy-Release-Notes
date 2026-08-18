@@ -87,6 +87,21 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.2.8-Beta
+@date: 2026-08-18
+## New Features
+- Change orders are now always required to go through the estimate review process.
+- At least one Owner is now required on every project moving forward.
+- Catalog and assembly requests now require a reason for the request instead of an optional note.
+- Estimate review page now opens to a queue of every estimate awaiting review, so links from the reminder email land on the full list.
+## Bug Fixes
+- Fixed the Projects page getting stuck loading forever.
+- No more automated emails on Saturdays and Sundays.
+- Follow-ups are now cleared automatically when a job moves to a closed status, so dead jobs stop showing up in reminder emails.
+- Dev/test projects no longer appear in regular users' project lists.
+## Admin Updates
+- New Include in Sales Metrics checkbox on Admin > Users, so a salesman can use Actions without appearing on the Sales Metrics page.
+
 # CADdy Bid v0.2.7-Beta
 @date: 2026-08-13
 ## New Features
