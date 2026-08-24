@@ -87,6 +87,22 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.2.9-Beta
+@date: 2026-08-24
+## New Features
+- Project type picker — a new step before creating a project to ask what type it is, so change orders are created correctly from the start.
+- Subcontractor checklist questions — when a job moves to approval, there could be specific questions regarding the winning bidder.
+- Combined project updates — approval updates and project updates are now one thread, so managers can tag sales (and sales can tag managers) in the same place.
+## Bug Fixes
+- Fixed the sell price calculation on estimates.
+- Fixed the Back button on the estimate page.
+- Deleting a job now deletes its change orders too, instead of leaving them stranded.
+- Project numbers can no longer be edited for bids already created in BuildOps.
+## Admin Updates
+- On the admin checklist page, you can now create questions that link to specific subcontractors.
+- Dev projects can now move anywhere in the project flow and get auto-approved.
+- Managers can now tag sales in the approval board updates.
+
 # CADdy Bid v0.2.8-Beta
 @date: 2026-08-18
 ## New Features
