@@ -87,6 +87,29 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.3.0-Beta
+@date: 2026-08-28
+## New Features
+- New commissions page! (Note: managers are still filling in payment information, so re-estimated, paid, and completed amounts aren't fully up to date yet. We're working on it.)
+- New sales splits: add up to 3 people to a job from Projects or Commissions (splits total 70% if an estimator is on the job).
+- Change orders are included on the commissions page, linked back to their original project, with a table breakdown showing the math.
+- If a job wasn't imported from Monday or created in Bid, you can submit a manual row to commissions for admin approval.
+- Commissions move through president and controller approval on the page, with a status on each one so you always know what stage it's at.
+- Commissions also show on the Projects page for the salespeople on that job, where you can view or create one for that project.
+- New valves section on the estimate page (valves are not multiplied by the system quantity).
+- Undo/redo added on estimates for system deletion and manufacturer changes.
+- New projects now default to New Lead status.
+- Sales action attendees now show phone number and email.
+## Bug Fixes
+- Once projects are created in BuildOps through CADdy Bid, you can no longer edit the project number.
+- Estimators can't be changed after estimate approval on a job.
+- Sales actions "linked deal" now pulls any job where you're the salesperson, including closed ones.
+- Checklists can now have specific questions pertaining to the owner or the winning bidder on a job.
+## Admin Updates
+- Managers can now edit sales actions for individual users.
+- Manual-entry approval recipients configurable in Admin > Sales.
+- Admins can view and edit the projects and service agreements for an individual salesperson, including marking payments complete and filling in old re-estimate values to bring records up to date.
+
 # CADdy Bid v0.2.9-Beta
 @date: 2026-08-24
 ## New Features
