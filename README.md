@@ -90,6 +90,7 @@
 # CADdy Bid v0.3.1-Beta
 @date: 2026-08-31
 ## Bug Fixes
+- No longer requires sales splits to add up to 100%. Just caps it at 100 and 70 if there was an estimator.
 - Sales actions - if a manager creates an action on your board, emails no longer say "collaboration". It now reads as a new action on your board.
 - The estimate review reminder email now shows only the 5 longest-waiting estimates and a count of the rest, instead of a long wall of jobs.
 - Commissions no longer get created on jobs that were never won. Rows on No Bid, Lost, and On Hold jobs are cleaned up on refresh (nothing approved, paid, or hand-entered is touched).
