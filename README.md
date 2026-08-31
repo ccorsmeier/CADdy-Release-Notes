@@ -89,15 +89,23 @@
 
 # CADdy Bid v0.3.1-Beta
 @date: 2026-08-31
+## New Features
+- Right-click a project commission and choose "Mark as service agreement" to move it to the Service tab and pay it on the service formula. Right-click a reclassified row and choose "Move back to projects" to undo that.
+- Changing the salespeople on a project now updates the matching commission rows and their splits instead of leaving the commission on the old rep.
+- The counts and totals at the top of the commissions page now match the projects actually awaiting payment.
 ## Bug Fixes
 - No longer requires sales splits to add up to 100%. Just caps it at 100 and 70 if there was an estimator.
 - Sales actions - if a manager creates an action on your board, emails no longer say "collaboration". It now reads as a new action on your board.
 - The estimate review reminder email now shows only the 5 longest-waiting estimates and a count of the rest, instead of a long wall of jobs.
-- Commissions no longer get created on jobs that were never won. Rows on No Bid, Lost, and On Hold jobs are cleaned up on refresh (nothing approved, paid, or hand-entered is touched).
 - Finance is now read-only on commissions. Finance can view every salesperson's records, but corrections, manual entries, splits, and marking payments paid are admin-only.
+- Booked date now fills in from the project's won date instead of staying empty.
 ## Admin Updates
 - Admins can now run the commissions refresh for every salesperson at once, with a progress bar showing how far along it is. Previously each rep had to run it on their own book.
 - Won jobs without a job number now get a real commission row you can edit or delete, instead of a placeholder row you couldn't act on.
+- Approval decision notes now show who approved or denied each payment and when.
+- Marking a commission paid can close it out at a typed total, which records both halves and stops the row from waiting on further margins.
+- Presidential approval now hands off to the controller by email with the president's note attached.
+- Added development flag option for commissions when testing.
 
 # CADdy Bid v0.3.0-Beta
 @date: 2026-08-28
