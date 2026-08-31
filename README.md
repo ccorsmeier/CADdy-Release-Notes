@@ -87,6 +87,17 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.3.1-Beta
+@date: 2026-08-31
+## Bug Fixes
+- Sales actions - if a manager creates an action on your board, emails no longer say "collaboration". It now reads as a new action on your board.
+- The estimate review reminder email now shows only the 5 longest-waiting estimates and a count of the rest, instead of a long wall of jobs.
+- Commissions no longer get created on jobs that were never won. Rows on No Bid, Lost, and On Hold jobs are cleaned up on refresh (nothing approved, paid, or hand-entered is touched).
+- Finance is now read-only on commissions. Finance can view every salesperson's records, but corrections, manual entries, splits, and marking payments paid are admin-only.
+## Admin Updates
+- Admins can now run the commissions refresh for every salesperson at once, with a progress bar showing how far along it is. Previously each rep had to run it on their own book.
+- Won jobs without a job number now get a real commission row you can edit or delete, instead of a placeholder row you couldn't act on.
+
 # CADdy Bid v0.3.0-Beta
 @date: 2026-08-28
 ## New Features
