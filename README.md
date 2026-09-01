@@ -87,6 +87,25 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.3.2-Beta
+@date: 2026-09-01
+## New Features
+- Won jobs can now be marked as a change order by double-clicking the Type column, then linking it to a parent job.
+- Project updates now read oldest to newest, with the newest at the bottom next to the reply box and a Load more button for older threads.
+- Custom labor lines on estimates now prefill the rate from the cost code, and typing a rate fills in the total.
+- Checklist questions can now have a reference photo attached.
+- Managers can now use sales actions from the Outlook add-in, including picking which salesperson's board they are working on.
+- Scheduling a sales action now has an option to skip creating an Outlook calendar event.
+## Bug Fixes
+- Fixed managers not being able to edit actions they are a collaborator on.
+- Change orders on the Commissions page now come only from BuildOps, so old Bid change orders no longer show up. New change orders still start in CADdy Bid and pick up their BuildOps number once job setup is done.
+- Fixed capitalization on several page and section headings.
+- Removed the Job # column from the service agreement commissions table, since the agreement number identifies it.
+## Admin Updates
+- Admins can now mark a service agreement commission as already paid when editing it in a rep's book, with the commission amount previewed before saving.
+- Admin popups and confirmations now use the in-app modal style instead of the browser's default popup.
+- Photos can now be added to specific questions in the Admin Checklists page.
+
 # CADdy Bid v0.3.1-Beta
 @date: 2026-08-31
 ## New Features
