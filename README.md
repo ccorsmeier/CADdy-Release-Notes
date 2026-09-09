@@ -87,6 +87,17 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.3.3-Beta
+@date: 2026-09-09
+## New Features
+- Sending a project for approval now asks for the extra info BuildOps needs: split confirmation, contract number, PO number, and contact info for the winning bidder.
+- You can now add a note when re-uploading a file or sending a re-invite to subcontractors, so the recipient knows what changed.
+- Send Feedback in the top right menu now opens BUGgy right inside CADdy Bid.
+## Admin / Manager Updates
+- Approval cards now show a full AIA breakout on the back, with copy buttons for each value.
+- Approval cards now pull in more project information needed for job setup.
+- Fixed category deletions failing & items being duplicated when downloading and re-uploading the Excel file on the Admin Catalog page.
+
 # CADdy Bid v0.3.2-Beta
 @date: 2026-09-01
 ## New Features
