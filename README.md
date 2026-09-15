@@ -87,6 +87,22 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.0-Beta
+@date: 2026-09-15
+## New Features
+- New bids split into Construction Project and Service Project so they can be categorized as needed.
+- New Service Quotes: a Service Projects page listing every quote under each project, with statuses, office colors, filters, and logs.
+- Quote approval process with emails: submit for approval, approve or deny, resubmit, and live updates while waiting.
+- Customer signature page with a confirmation email once signed and a saved signed PDF.
+- Option to quote for the customer directly: email the quote with a preview and notes, or hand off a summary for them to review and sign.
+- Quotes have per-user dollar limits, defaulting to $2,500, so anything above the limit routes to manager approval.
+- Duplicate, delete, and export options on service quotes, with deletes limited to the quote's owner.
+- Quote numbers prefill with the salesperson / technician initials, number, and an S for service.
+## Admin Updates
+- New roles for service page
+- New service admin page to set per-user quote limits and the default customer margin.
+- Fixed admin upload.
+
 # CADdy Bid v0.3.3-Beta
 @date: 2026-09-09
 ## New Features
