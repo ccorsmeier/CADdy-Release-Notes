@@ -87,6 +87,19 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.1-Beta
+@date: 2026-09-16
+## New Features
+- Estimators now have their own personal catalogs. You can request items that appear only on your screen, and hide items you don't want cluttering your view while estimating. Manage this in the admin page.
+- Estimate system pages can now be reordered.
+- Assemblies can be zeroed out in an estimate.
+- Project updates can now be edited and deleted by their author, and line breaks/whitespace are preserved (including on older updates).
+## Bug Fixes
+- Changing an assembly quantity now correctly refreshes recommended hours on the hours tab.
+## Admin Updates
+- Admins can approve a requested item either to just that estimator's catalog or to the whole company catalog, and can manage any individual estimator's catalog from the new Estimator Catalog admin page.
+- Items updated on the master BOM still update for everyone, regardless of personal catalog changes.
+
 # CADdy Bid v0.4.0-Beta
 @date: 2026-09-15
 ## New Features
