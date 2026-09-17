@@ -87,6 +87,15 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.2-Beta
+@date: 2026-09-17
+## New Features
+- Distech, Belimo, and CRC dollar values on a project now fill in automatically based on each item's manufacturer, so you no longer have to total them by hand. You can still type over any of the three, but it will no longer be overwritten.
+- Changing an equipment's system type now updates the Install tab right away, and clears the old install system type if it no longer applies.
+## Bug Fixes
+- Estimators can now only edit their own personal assemblies; shared assemblies stay read-only for them.
+- Fixed material rows staying grayed out after an accidental drag while multiple rows were selected.
+
 # CADdy Bid v0.4.1-Beta
 @date: 2026-09-16
 ## New Features
