@@ -87,6 +87,22 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.3-Beta
+@date: 2026-09-21
+## New Features
+- You can now sort any commissions table by clicking a column header. 
+- Commissions records now have a Notes column to view notes from admins.
+## Bug Fixes
+- Contract and Booked margin on commissions now add up correctly, and the figures match the totals shown when a job row is expanded.
+- Equipment on the estimate Install tab now follows the saved system order instead of sorting alphabetically, matching the Hours tab.
+## Admin/Manager Updates
+- Completed payment sections on commissions can now be expanded and collapsed.
+- The date is now set automatically when you enter a re-estimate margin on commissions.
+- When an admin marks a payment paid, that is now recorded separately from a real controller payment, so you can tell the two apart on the record.
+- Admins can now edit the first payment and second payment amounts directly
+- You can now mark payment that was already paid to subtract from the total commission on jobs that have already been partially paid but still need first and second payments.
+- Mark paid bug fixed.
+
 # CADdy Bid v0.4.2-Beta
 @date: 2026-09-17
 ## New Features
