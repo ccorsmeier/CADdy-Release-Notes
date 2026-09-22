@@ -87,6 +87,21 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.4-Beta
+@date: 2026-09-22
+## New Features
+- Salespeople now get an email when someone adds them to a job, with a button straight to the project.
+- New projects can no longer be created in a status past pricing, since those stages require an approved estimate checklist.
+## Bug Fixes
+- Sales splits no longer get dropped at random.
+- Margin values entered on a shared job now sync to every salesperson on it, instead of showing different numbers to different people.
+- Change orders no longer take a sales split of their own. They are always paid on the parent job's split, so editing a parent's split now carries through to its change orders.
+- Removing someone from a sales split now removes their commission row, instead of leaving them credited on the job. Payments already approved or paid are left untouched.
+## Admin/Manager Updates
+- The Total column on commissions now shows what the job is worth in full.
+- The second payment breakdown now shows the Finished GM it is calculated from.
+- Overpaid jobs are now labeled "Overpaid" rather than "Not recovered", and the review note names the right figures.
+
 # CADdy Bid v0.4.3-Beta
 @date: 2026-09-21
 ## New Features
