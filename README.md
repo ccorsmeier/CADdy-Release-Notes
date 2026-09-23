@@ -87,6 +87,21 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.5-Beta
+@date: 2026-09-23
+## New Features
+- Change orders approved in CADdy-Hub now show up on the Approvals board for BuildOps, with a link to the CO folder and a flip side that lists the change order lines.
+- Approving a change order or marking Job Setup Complete can now be undone for 10 seconds.
+- Customers can add an optional PO number when they sign a service quote.
+- Service jobs have a new Ready for Billing step, a PO # column on the Ready for Billing tab, and a Quote # column.
+- Commissions has a new Statements tab that shows each salesperson's monthly payments.
+## Bug Fixes
+- Fixed several service quote issues found in testing, including approved quotes that couldn't be sent to the customer.
+- Service quotes now keep the margin, markup and tax rates they had when the quote was created.
+- Fixed commission payment amounts not matching between approval, payment and the commissions page, including already paid amounts being left out.
+## Admin Updates
+- BuildOps users can now view service quotes read-only and edit the PO # on jobs that are Ready for Billing.
+
 # CADdy Bid v0.4.4-Beta
 @date: 2026-09-22
 ## New Features
