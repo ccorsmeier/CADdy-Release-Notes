@@ -87,6 +87,19 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.6-Beta
+@date: 2026-09-24
+## New Features
+- Approved commission payments now go into your Brooks Bank, and you can request a payout of any amount up to your balance from your Monthly Payout.
+- A new Brooks Bank statement shows every payout request, its status, and when accounting acknowledged it.
+- Searching on the Construction tab now shows a badge when the same search has matches on the Service tab, and you can jump straight to them.
+## Admin Updates
+- Controller approval of a commission payment now deposits it into the salesperson's Brooks Bank.
+- A new Payouts tab lets the Controller review and pay salesperson payout requests, oldest first.
+- Paying a payout request emails accounting, and accounting can confirm receipt with an Acknowledge button in that email.
+- On the Service admin page, client labor cost is now set once per office and every customer at that office uses it. Customer rates stay on the Client Rates tab.
+- The admin Users page now has an Activity panel that shows how many people are using CADdy Bid, who's online right now, and a usage graph by Today, Week, Month, Year, or All time.
+
 # CADdy Bid v0.4.5-Beta
 @date: 2026-09-23
 ## New Features
