@@ -87,6 +87,17 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.7-Beta
+@date: 2026-09-25
+## New Features
+- New Export Materials button on the Entire Estimate view downloads every material in the estimate by part number as Excel, PDF, or both.
+- The New Service Job form now asks for Site Name and Equipment, plus an optional Site Address. All three print on the quote PDF.
+- The signed service quote PDF has a new Brooks design: itemized materials and labor, section subtotals, a total price bar, the office address, a terms line, and page numbers.
+- A commission payment now shows as Partly paid when only part of it has been paid out from the Brooks Bank.
+## Admin Updates
+- Admins can add an amount to any rep's Brooks Bank from Statements, with an optional note. It shows on the rep's statement as "Added by" the admin.
+- Construction labor in admin has a new field for the labor sell price, which will be used for the BuildOps setup.
+
 # CADdy Bid v0.4.6-Beta
 @date: 2026-09-24
 ## New Features
