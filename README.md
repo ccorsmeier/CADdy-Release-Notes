@@ -87,6 +87,18 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.8-Beta
+@date: 2026-09-30
+## New Features
+- Bidders, Engineers and Owners on a project are now set up as company cards, each with its own people.
+- New Contacts column on the Ready for Approval and Won tabs of the projects page shows each job's Customer Contact and Site Contact.
+- Service quote PDFs and signature pages now show a cost breakout for each line.
+- Labor on service quotes is now split into separate Diagnostic Labor and Repair Labor sections, each with its own subtotal.
+## Bug Fixes
+- When a shared job's number changes in Commissions, both salespeople's rows now update, not just one.
+## Admin Updates
+- New Commissions admin page where you choose who has a commissions page / Brooks bank. Turning off someone's commissions page now removes them from approvals and commissions entirely.
+
 # CADdy Bid v0.4.7-Beta
 @date: 2026-09-25
 ## New Features
