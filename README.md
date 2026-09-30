@@ -92,12 +92,19 @@
 ## New Features
 - Bidders, Engineers and Owners on a project are now set up as company cards, each with its own people.
 - New Contacts column on the Ready for Approval and Won tabs of the projects page shows each job's Customer Contact and Site Contact.
-- Service quote PDFs and signature pages now show a cost breakout for each line.
+- Service quote PDFs, summary, and signature pages now show a cost breakout for each line.
 - Labor on service quotes is now split into separate Diagnostic Labor and Repair Labor sections, each with its own subtotal.
+- The project Info tab now shows email and phone for each contact, with each company's people listed under it.
+- The service quote activity log now shows what was added or removed, including part numbers and quantities.
+- When a service quote is sent again after being pulled back, the customer's email says it was updated and that the old link no longer works.
 ## Bug Fixes
 - When a shared job's number changes in Commissions, both salespeople's rows now update, not just one.
+- Estimate names are no longer cut off on the Won tab.
+- PDF downloads are no longer logged twice.
+- Resubmitted service quote approval emails no longer show an empty "No reason was recorded" block.
 ## Admin Updates
 - New Commissions admin page where you choose who has a commissions page / Brooks bank. Turning off someone's commissions page now removes them from approvals and commissions entirely.
+- Admins can now open any salesperson's commission record straight from the projects page.
 
 # CADdy Bid v0.4.7-Beta
 @date: 2026-09-25
