@@ -87,6 +87,20 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.9-Beta
+@date: 2026-10-05
+## New Features
+- Estimates now have a Bid Options button next to the estimate name, showing the base bid, the add ons you can choose, and the final estimate.
+- A breakout can now be either an add on to existing equipment, a separate equipment, or apart of a group.
+- Existing equipment can now be turned into a breakout.
+- When an estimate has breakouts, the salesperson needs to record which options the customer picked before you send the job for approval.
+- New 'Clone to' button on estimates clones all items from one piece of equipment to one or more others at once.
+- A construction project can now be linked to another construction project, not just to change orders.
+- Hub change orders on the Approved tab can now be exported to PDF.
+- When you create a sales action on the website, you can now choose not to add it to the Outlook calendar.
+## Bug Fixes
+- BuildOps reminders for service projects now go to the service team.
+
 # CADdy Bid v0.4.8-Beta
 @date: 2026-09-30
 ## New Features
