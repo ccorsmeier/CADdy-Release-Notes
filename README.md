@@ -87,7 +87,7 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
-# CADdy Bid v0.4.10-Beta
+# CADdy Bid v0.5.0-Beta
 @date: 2026-10-07
 ## New Features
 - Every project follow-up now records its type (call, meeting, job walk, and so on).
