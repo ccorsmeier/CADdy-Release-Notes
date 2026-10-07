@@ -87,6 +87,25 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.4.10-Beta
+@date: 2026-10-07
+## New Features
+- Every project follow-up now records its type (call, meeting, job walk, and so on).
+- On the sales page, marking an action Done moves it to Completed action items, and moving it to Completed marks it Done.
+- The commissions page and the Approvals tab now show a % paid column for each project.
+- Salespeople now have a Weekly draw card on their commissions page and can ask to turn their draw on or off.
+- Salespeople get an email whenever their weekly draw is set up, turned on or turned off.
+- Wide commissions tables now have a scrollbar that floats at the bottom of the screen, like the projects page.
+## Bug Fixes
+- The commissions loading badge no longer hides behind the page header.
+- Fixed a rare case where a subcontractor could get a duplicate invite.
+## Admin Updates
+- The Sales admin page has a new Follow-up Types tab for managing the follow-up type list, which is separate from action interaction types.
+- Admins can put a salesperson on a weekly draw, turn it on or off, and change the amount. Each Thursday the draw comes out of their Brooks Bank and goes to the Controller to pay.
+- A new Draws tab on the Commissions admin page sets who gets emailed when a salesperson asks to change their draw.
+- On the 1st of each month at 7am, the Controllers are emailed a PDF report of the previous month's commission payments.
+- The Controller can now view any salesperson's Project Backlog on the commissions Project Backlog page, read-only.
+
 # CADdy Bid v0.4.9-Beta
 @date: 2026-10-05
 ## New Features
