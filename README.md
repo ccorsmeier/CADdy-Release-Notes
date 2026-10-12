@@ -87,6 +87,26 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.1-Beta
+@date: 2026-10-12
+## New Features
+- A new Export button in the estimate page header saves the whole estimate as one PDF.
+- You can drag a project's estimates into any order, and the order is saved.
+- Each bidder on a project can have its own bid due date, and the Bid Date is set to the day before the earliest one.
+- New project links are named "Sales Files" by default.
+- You can add a new contact or a new company straight from the new sales action modal.
+- Salespeople can export their commission statements as a PDF, an Excel file or both.
+- Salespeople can export the Project Backlog on the Commissions page as a PDF, an Excel file or both.
+- Each service job now holds one quote. New Quote only shows on a job with no quote, and Duplicate has been removed.
+- You can edit a service job's site name, address and equipment at any point until the quote is signed.
+## Bug Fixes
+- The horizontal scrollbar on the projects grid no longer snaps back or lags while you drag it.
+- The Projects page now displays better on phones.
+## Admin Updates
+- Admins can create an assembly from an estimate.
+- Admins can export the monthly commission report for all salespeople.
+- Admins can export the Project Backlog for all salespeople.
+
 # CADdy Bid v0.5.0-Beta
 @date: 2026-10-07
 ## New Features
