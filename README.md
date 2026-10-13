@@ -87,6 +87,15 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.2-Beta
+@date: 2026-10-13
+## New Features
+- Service quotes have a new Manager discount % field that takes a percent off the whole quote total, tax included.
+- When a quote has a manager discount, the summary shows the price before the discount, the discount and the final price.
+## Admin Updates
+- Admin Service has a new Customer Margins tab where you set each customer's material margin % for new service quotes.
+- The Margin % column and filter moved from Admin Accounts to the new Customer Margins tab.
+
 # CADdy Bid v0.5.1-Beta
 @date: 2026-10-12
 ## New Features
