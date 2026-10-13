@@ -92,9 +92,13 @@
 ## New Features
 - Service quotes have a new Manager discount % field that takes a percent off the whole quote total, tax included.
 - When a quote has a manager discount, the summary shows the price before the discount, the discount and the final price.
+- Each equipment section on the estimate Labor tab now has a reset button that sets its labor hours back to 0.
+- A Reset all button next to Add labor item sets the labor hours on every equipment back to 0. Custom labor lines keep their hours.
 ## Admin Updates
 - Admin Service has a new Customer Margins tab where you set each customer's material margin % for new service quotes.
 - The Margin % column and filter moved from Admin Accounts to the new Customer Margins tab.
+- Customer Margins lists only customers with their own margin. Search to find any other company.
+- The Client Rates tab in Admin Service now lists the companies that have rates at the selected office, and you can expand a company to see its rates.
 
 # CADdy Bid v0.5.1-Beta
 @date: 2026-10-12
