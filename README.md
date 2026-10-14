@@ -87,6 +87,20 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.3-Beta
+@date: 2026-10-14
+## New Features
+- The project updates window has a new Files tab where you can view, open, add, rename, delete, search and download all of a project's files.
+- A denied project now shows a separate Resubmit button next to the red Denied tag, and clicking the tag shows the denial notes.
+- Customers can optionally enter a PO # when they sign a service quote on a device, and a quote signed with a PO goes straight to Ready for Billing.
+## Bug Fixes
+- When you change a service quote that was pulled back and it no longer needs a manager, it is approved automatically when you click Next.
+## Admin Updates
+- Sandra now gets an email when a service quote is signed and when a job is moved to Ready for Billing.
+- Commissions now pull the finished margin from BuildOps automatically once a job is 100% billed.
+- A second commission payment now shows Awaiting 1st payment and waits until the first payment is ready for approval.
+- The commissions Refresh button now lets you pick which steps to run and which salespeople to include.
+
 # CADdy Bid v0.5.2-Beta
 @date: 2026-10-13
 ## New Features
