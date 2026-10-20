@@ -87,6 +87,23 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.4-Beta
+@date: 2026-10-20
+## New Features
+- Quick Quote is a new estimate option for construction and service projects. A faster way to complete small estimates.
+- New "Denied" project status. A denied job moves there and can go straight back to Ready for Approval.
+- Brooks Bank payment requests can now go below zero, and the request window warns you when one will.
+## Bug Fixes
+- Approval cards show each material's part number under its name.
+- The checkout checklist button only shows while a project is before Ready for Review.
+## Admin Updates
+- Approvers can open a job's estimate from its approval card using the new eye icon.
+- Approvers can change a job's project type from the Approvals board by double-clicking the type tag, including setting a change order's parent job.
+- Denying a job on the Approvals board now moves it to the Denied status.
+- The commission Approvals tab has a Salesperson filter.
+- Field Quotes are limited to service techs and no longer available to sales.
+- Finished margin now fills in only once the customer has paid the full contract. Margins typed in by hand are no longer overwritten by the sync.
+
 # CADdy Bid v0.5.3-Beta
 @date: 2026-10-14
 ## New Features
