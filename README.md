@@ -474,7 +474,7 @@
 - Set the salesperson/estimator outline colors shown on the Projects page.
 - Fixed a Service Rates admin error.
 
-# CADdy Bid Alpha Versions
+# CADdy Bid v0.0.0-Alpha-Versions
 @date: 2026-07-30
 ## v0.2.2-Alpha
 ## New Features
