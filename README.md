@@ -476,7 +476,7 @@
 
 # CADdy Bid v0.0.0-Alpha-Versions
 @date: 2026-07-30
-## v0.2.2-Alpha
+## v0.2.2-Alpha ---------------
 ## New Features
 - Add more documents to an invite after it's already sent, then email the subcontractor to let them know.
 - Invite expiration dates now change color as they get close, yellow when expiring soon, red once expired.
@@ -495,8 +495,8 @@
 ## Admin Updates
 - New PEG / PM / Tech settings on the admin Labor page that drive the new Hours column on the Projects page.
 - The catalog-approval email now shows any adjustments the admin made to the request before approving.
-@date: 2026-07-29
-## v0.2.1-Alpha
+## v0.2.1-Alpha ---------------
+- 2026-07-29
 ## New Features
 - "Go to project" button in the project logs jumps you straight to that project's row.
 - The Values column now shows for estimators and sales, and both roles can change them.
@@ -513,9 +513,8 @@
 - BuildOps now requires a Project / Contract Number to mark a job "Job Setup Complete." It saves onto the project.
 - Estimate files now show on approval cards and download in one click, and the "no estimate yet" popup points you to them too.
 - Fuller Approval Logs: now shows every Legal and Manager decision, not just submissions and approvals.
-
-# CADdy Bid v0.2.0-Alpha
-@date: 2026-07-28
+## v0.2.0-Alpha ---------------
+- 2026-07-28
 ## New Features
 - Subcontractors can now say "No Bid" on an invite. If a sub isn't going to bid, they can decline right from the invite page and leave a quick reason. You'll get an email letting you know and their status shows as "Declined" on your invite list. Subs who decline no longer show up as install options, and their "Re-Invite" button is turned off.
 - Sales users get personalized dashboard tiles. The Missing close dates, Follow-ups needed, and Upcoming action tiles now take you straight to your projects.
