@@ -102,7 +102,8 @@
 - Denying a job on the Approvals board now moves it to the Denied status.
 - The commission Approvals tab has a Salesperson filter.
 - Field Quotes are limited to service techs and no longer available to sales.
-- Finished margin now fills in only once the customer has paid the full contract. Margins typed in by hand are no longer overwritten by the sync.
+- Finished margin now fills in once the customer has paid 97% or more of the contract, instead of the full contract.
+- Finished margin can now be entered with two decimal places. Margins typed in by hand are no longer overwritten by the sync.
 
 # CADdy Bid v0.5.3-Beta
 @date: 2026-10-14
