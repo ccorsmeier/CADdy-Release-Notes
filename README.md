@@ -87,6 +87,16 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.5-Beta
+@date: 2026-10-21
+## New Features
+- Signing in to the Outlook add-in on mobile now works reliably.
+## Admin Updates
+- Service agreements on the Commissions page now have a name you can set.
+- A service agreement keeps its name when it is moved over from Projects on the Commissions page.
+- Withdrawal and paid emails now go to the Payouts role and the Controller automatically.
+- The Payout Emails tab on the commissions admin page has been removed, since the Payouts role decides who gets those emails.
+
 # CADdy Bid v0.5.4-Beta
 @date: 2026-10-20
 ## New Features
@@ -464,8 +474,9 @@
 - Set the salesperson/estimator outline colors shown on the Projects page.
 - Fixed a Service Rates admin error.
 
-# CADdy Bid v0.2.2-Alpha
+# CADdy Bid Alpha Versions
 @date: 2026-07-30
+## v0.2.2-Alpha
 ## New Features
 - Add more documents to an invite after it's already sent, then email the subcontractor to let them know.
 - Invite expiration dates now change color as they get close, yellow when expiring soon, red once expired.
@@ -484,9 +495,8 @@
 ## Admin Updates
 - New PEG / PM / Tech settings on the admin Labor page that drive the new Hours column on the Projects page.
 - The catalog-approval email now shows any adjustments the admin made to the request before approving.
-
-# CADdy Bid v0.2.1-Alpha
 @date: 2026-07-29
+## v0.2.1-Alpha
 ## New Features
 - "Go to project" button in the project logs jumps you straight to that project's row.
 - The Values column now shows for estimators and sales, and both roles can change them.
