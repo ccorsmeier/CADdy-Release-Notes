@@ -529,9 +529,8 @@
 - Fixed the weekly sales metrics and restored the week that was affected.
 ## Admin Updates
 - Subcontractor declines are recorded in the logs (with the reason), and re-invites are now tracked separately from the first invite.
-
-# CADdy Bid v0.1.9-Alpha
-@date: 2026-07-27
+## v0.1.9-Alpha ---------------
+- 2026-07-27
 ## New Features
 - Edit multiple projects at once — Select several projects (ctrl+click or shift+click) and apply a change to all of them in one step, instead of editing each one individually.
 - Sort by won date — You can now sort projects by their won date on the Projects page.
@@ -548,9 +547,8 @@
 - Approval Logs — A new Logs button on the Approvals page shows recent approval activity across all jobs.
 - Gross margin on approval cards — Approval cards now show the GM% right next to the bid amount.
 - Better BuildOps handling for Monday jobs — When a job doesn't have an estimate in CADdy yet, BuildOps now gets a clear explanation with links to the Monday item and the SharePoint files, instead of an error.
-
-# CADdy Bid v0.1.8-Alpha
-@date: 2026-07-23
+## v0.1.8-Alpha ---------------
+- 2026-07-23
 ## New Features
 - Package & Assembly categories and estimate trees. Packages and assemblies now support nested categories, with a category tree view on the estimate page. The Packages and Assemblies views on the estimate page are now split into their own sections.
 - Multi-select projects → export to Excel. Ctrl+click to select multiple projects on the Projects page, then right-click to copy the selection into an Excel document.
@@ -566,9 +564,8 @@
 - New Estimate Manager role. Fixed the manager role and added a dedicated Estimate Manager role to control who can review and approve estimates.
 - Admin Users default permissions fixed so users now receive the correct default admin permissions based on their role.
 - Construction vs. Service labor now separated correctly, so Service labor only shows SER- offices.
-
-# CADdy Bid v0.1.7-Alpha
-@date: 2026-07-22
+## v0.1.7-Alpha ---------------
+- 2026-07-22
 ## New Features
 - New BuildOps flow: once a job is approved by both manager and legal and moves to Won, BuildOps users can view the AIA and mark when the job is submitted into BuildOps.
 - Assembly requests for estimators: estimators can now request assemblies (alongside catalog requests).
@@ -587,9 +584,8 @@
 - Removed the approved / denied tabs in approval tab.
 - New-user onboarding: a Brooks user signing in will now need approval from an admin.
 - Tutorials turned off for now until they're updated.
-
-# CADdy Bid v0.1.6-Alpha
-@date: 2026-07-21
+## v0.1.6-Alpha ---------------
+- 2026-07-21
 ## New Features
 - All projects imported from Monday, including updates, values, dates, people, etc.
 - Estimate review (Ready for Review): estimates sent to sales now go through a manager review, with email notifications to the manager, estimator, and sales.
@@ -614,9 +610,8 @@
 - Fixed logging on the projects page.
 - Restrictions so a bid can't move past Ready for Review or to Won before the required review and approval steps are complete.
 - Styling fixes across the review, approval, and checklist screens
-
-# CADdy Bid v0.1.5-Alpha
-@date: 2026-07-16
+## v0.1.5-Alpha ---------------
+- 2026-07-16
 ## New Features
 - New catalog category tree — Estimators can now browse a nested category tree to find items faster, instead of always searching or scrolling one long list.
 - Updated subcontractor list — Refreshed the subcontractor contacts used throughout the app.
@@ -626,9 +621,8 @@
 ## Bug Fixes
 - Fixed the /invite page — The invite page now works correctly with the updated subcontractor contacts.
 - Fixed scrollbar on estimate / sidebar.
-
-# CADdy Bid v0.1.4-Alpha
-@date: 2026-07-14
+## v0.1.4-Alpha ---------------
+- 2026-07-14
 ## New Features
 - New Sales section with pipeline pages, weekly performance, and metrics dashboards, including a contractor-revenue chart and an Export button to pull a report of the data.
 - Sales Actions board with your own actions plus collaborator actions, group-by-status, drag-and-drop reordering, column sorting, right-click to delete, and attendee/company filters.
@@ -654,9 +648,8 @@
 - Wider, more readable column widths on the projects page.
 - Various styling fixes across the sales, install, and estimate pages.
 - Added mobile views for projects and sales pages.
-
-# CADdy Bid v0.1.3-Alpha
-@date: 2026-07-08
+## v0.1.3-Alpha ---------------
+- 2026-07-08
 ## New Features
 - Subcontractor invite emails now list the equipment count and the devices under each item, so subs can see exactly what's included.
 - You can now reorder items on the estimate by dragging and dropping them.
@@ -669,9 +662,8 @@
 - The admin materials table no longer has its own scrollbar and now fills the full width of the page.
 - Added an All option to the items-per-page setting so you can view every item on a single page.
 - Added new description column to the Packages page.
-
-# CADdy Bid v0.1.2-Alpha
-@date: 2026-07-02
+## v0.1.2-Alpha ---------------
+- 2026-07-02
 ## New Features
 - You can now create a new salesperson or estimator if they aren't in the database yet by entering their first name, last name, and email.
 - You can now assign up to 3 estimators or salespeople to a single project.
@@ -682,9 +674,8 @@
 - Reworked the Accounts page so both companies and people can be set as subcontractors, for use on both the install and invite pages.
 - Added filters, collapsible People and Companies sections, and column sorting to the Accounts page.
 - The Packages equipment type filter is now a dropdown.
-
-# CADdy Bid v0.1.1-Alpha
-@date: 2026-06-25
+## v0.1.1-Alpha ---------------
+- 2026-06-25
 ## Admin Updates
 - Renamed "Hours" to "Labor" across the app.
 - Added multiselect for offices when creating a new labor row.
@@ -697,9 +688,8 @@
 - Added a Default Perms tab on the Admin Users page to set the default admin permissions for each role, still changeable per user on the Permissions tab.
 - Added right-click to delete a user, fully removing access (disabling a user still left them read-only access to the Projects page).
 - Bug fixes: Log page now shows 12 logs per page, subcontractors are created through an existing person.
-
-# CADdy Bid v0.1.0-Alpha
-@date: 2026-06-22
+## v0.1.0-Alpha ---------------
+- 2026-06-22
 ## New Features
 - Added a right click option to view assembly items in the sidebar when creating estimates.
 - Added companies and people management in Accounts admin page.
@@ -709,9 +699,8 @@
 - Assemblies can have hours attached to them now.
 - Added warnings to admin pages if you forget to save and try to move tabs or close the page.
 - Added a new Hours admin page with the ability to create, edit, and delete hour entries including cost code, cost, and rate.
-
-# CADdy Bid v0.0.6-Pre-Alpha
-@date: 2026-06-16
+## v0.0.6-Pre-Alpha ---------------
+- 2026-06-16
 ## New Features
 - Accounts admin pg: Checkout questions, subcontractors, and locations. Will eventually add more customer management here.
 - Lessons admin pg: View submitted lessons learned by estimators using the checkout sheet, can be general or by-client. Also manage lesson subjects here.
@@ -729,9 +718,8 @@
 - Changed the generated quote number to use the salesperson instead of the current user.
 - Split assemblies and packages into their own separate admin pages with different admin permissions.
 - Added a right click option to view assembly items in the sidebar when creating packages.
-
-# CADdy Bid v0.0.5-Pre-Alpha
-@date: 2026-06-10
+## v0.0.5-Pre-Alpha ---------------
+- 2026-06-10
 ## New Features
 - Right click an estimate item to request adding it to the master BOM list.
 - New admin page to approve or deny requested BOM items, with an automatic email sent to whoever made the request.
@@ -741,9 +729,8 @@
 - New admin page to view submitted feedback, with statuses for open, in progress, and closed.
 ## Improvements
 - On the admin materials page, you can now hide columns (with a "show hidden columns" option) and adjust the page size dynamically.
-
-# CADdy Bid v0.0.4-Pre-Alpha
-@date: 2026-06-03
+## v0.0.4-Pre-Alpha ---------------
+- 2026-06-03
 ## New Features
 - Added subcontractor invites:
   - Email invite with Brooks logo & colors
@@ -767,9 +754,8 @@
 - New install page dropdowns and inputs for subcontractors (3 max; will eventually prefill with invited subcontractors & their quotes).
 - Admin hours page now highlights rows for controllers missing hour rules, with new filters to find specific missing hours.
 - Added a warning on the estimates page when a controller has no recommended hours.
-
-# CADdy Bid v0.0.3-Pre-Alpha
-@date: 2026-05-26
+## v0.0.3-Pre-Alpha ---------------
+- 2026-05-26
 ## New Features
 - Added warranty to the estimate summary page & PDF export (5% of materials).
 - Added warranty to the miscellaneous admin page (Misc Prices) where admins can change the percentage.
@@ -790,9 +776,8 @@
 ## Bug Fixes
 - Adj $/Hour now actually saves.
 - Additional fixes: tutorial, logout redirect, tax added to AIA, and more.
-
-# CADdy Bid v0.0.2-Pre-Alpha
-@date: 2026-05-21
+## v0.0.2-Pre-Alpha ---------------
+- 2026-05-21
 ## New Features
 - Added custom install $/device input on the estimate install tab.
 - Added summary and AIA export document.
@@ -814,9 +799,8 @@
 - Added travel to the summary breakdown section right after gross margin.
 ## Bug Fixes
 - Fixed package image upload bug.
-
-# CADdy Bid v0.0.1-Pre-Alpha
-@date: 2026-05-18
+## v0.0.1-Pre-Alpha ---------------
+- 2026-05-18
 ## Features
 - Project Management: Create projects and add one or more estimates to each project. Add project updates and tag users with @mentions to notify them by email.
 - Estimate Creation: Build estimates from scratch using Belimo and Distech parts.
@@ -841,10 +825,5 @@
 - Shared project logs
 
 # CADdy Bid Upcoming Features
-- Sales commissions page.
-- Package and assembly categories and grouping.
-- Service view with BuildOps information.
-- Estimate backup options.
-- Restore options from project and estimate logs.
-- User preferences, such as custom color options for project sections and statuses, or the ability to hide specific columns.
-- Custom project locations that can update per diem travel rates automatically.
+- Technician Commissions
+- SharePoint Connection
