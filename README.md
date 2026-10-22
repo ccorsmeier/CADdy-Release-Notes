@@ -477,7 +477,8 @@
 # CADdy Bid v0.0.0-Alpha-Versions
 @date: 2026-07-30
 ## v0.2.2-Alpha ---------------
-## New Features
+- 2026-07-30
+## New Features (v0.2.2)
 - Add more documents to an invite after it's already sent, then email the subcontractor to let them know.
 - Invite expiration dates now change color as they get close, yellow when expiring soon, red once expired.
 - Estimators are now included on the confirmation email when their estimate is approved and the job moves to Sent to Sales.
@@ -487,20 +488,20 @@
 - New Documents column on the Invite page shows how many files each subcontractor can see, with a button to view the list.
 - New Hours column on the Projects page (PEG / PM / Tech), auto-filled from the latest estimate and editable by anyone with edit access.
 - "Back to top" button on the Projects page.
-## Bug Fixes / Improvements
+## Bug Fixes / Improvements (v0.2.2)
 - File upload limit raised to 250MB.
 - Fewer duplicate emails to salesmen: inviting several subcontractors at once now sends one summary email instead of one per invite.
 - Fixed the status dropdown closing when you scrolled inside it.
 - Projects page now remembers your scroll position on refresh.
-## Admin Updates
+## Admin Updates (v0.2.2)
 - New PEG / PM / Tech settings on the admin Labor page that drive the new Hours column on the Projects page.
 - The catalog-approval email now shows any adjustments the admin made to the request before approving.
 ## v0.2.1-Alpha ---------------
 - 2026-07-29
-## New Features
+## New Features (v0.2.1)
 - "Go to project" button in the project logs jumps you straight to that project's row.
 - The Values column now shows for estimators and sales, and both roles can change them.
-## Bug Fixes
+## Bug Fixes (v0.2.1)
 - Faster AIA PDF exports, and automatic exports no longer get stuck on the "prices are outdated" prompt.
 - Fixed a blank pie slice on summary PDFs when everything was in one category.
 - Projects no longer briefly disappear after checkout moves them to a new status tab.
@@ -509,39 +510,39 @@
 - Add New Estimate button now hides on in-review/approved projects and comes back if moved back.
 - Imported Monday jobs now follow the normal approval gate instead of skipping it.
 - Package naming: spaces in a custom controller code now become underscores.
-## Admin / Manager Updates
+## Admin / Manager Updates (v0.2.1)
 - BuildOps now requires a Project / Contract Number to mark a job "Job Setup Complete." It saves onto the project.
 - Estimate files now show on approval cards and download in one click, and the "no estimate yet" popup points you to them too.
 - Fuller Approval Logs: now shows every Legal and Manager decision, not just submissions and approvals.
 ## v0.2.0-Alpha ---------------
 - 2026-07-28
-## New Features
+## New Features (v0.2.0)
 - Subcontractors can now say "No Bid" on an invite. If a sub isn't going to bid, they can decline right from the invite page and leave a quick reason. You'll get an email letting you know and their status shows as "Declined" on your invite list. Subs who decline no longer show up as install options, and their "Re-Invite" button is turned off.
 - Sales users get personalized dashboard tiles. The Missing close dates, Follow-ups needed, and Upcoming action tiles now take you straight to your projects.
 - Sales users can now delete projects with estimates, which was previously blocked.
 - Deleting a project now asks you to type a confirmation first.
-## Bug Fixes
+## Bug Fixes (v0.2.0)
 - Sales dashboard "missing close dates" now displays the correct number.
 - One person can now be both the estimator and salesperson on a project.
 - The estimator and salesperson lists now only show people who actually have that role, so they're easier to pick from. Anyone already assigned still stays in the list.
 - Search bar added to the Lessons Learned owner list, and the owner box only shows up once you pick "Owner" as the subject.
 - You can now link a sales action to any of your deals, whether it's open or closed (before it was open deals only).
 - Fixed the weekly sales metrics and restored the week that was affected.
-## Admin Updates
+## Admin Updates (v0.2.0)
 - Subcontractor declines are recorded in the logs (with the reason), and re-invites are now tracked separately from the first invite.
 ## v0.1.9-Alpha ---------------
 - 2026-07-27
-## New Features
+## New Features (v0.1.9)
 - Edit multiple projects at once — Select several projects (ctrl+click or shift+click) and apply a change to all of them in one step, instead of editing each one individually.
 - Sort by won date — You can now sort projects by their won date on the Projects page.
 - "Won" split by year — The "Won" status is now broken out into individual years for clearer tracking.
 - Project Logs — A new Logs button on the Projects page shows a history of changes made to projects, with search and filters.
 - Added a scrollbar to the project status area.
-## Bug Fixes
+## Bug Fixes (v0.1.9)
 - Sales Actions loads faster — large dropdowns were shortened and optimized.
 - Fixed Sales Action bugs with marking linked follow-ups and the Projects page link.
 - Fixed a refresh-related error.
-## Admin / Manager Updates
+## Admin / Manager Updates (v0.1.9)
 - Estimate review submissions are now restricted so only estimators can submit their own estimate for review by Chris.
 - Approval reminder emails — Managers will now get a daily reminder email for jobs that are waiting on you to review or approve.
 - Approval Logs — A new Logs button on the Approvals page shows recent approval activity across all jobs.
@@ -549,24 +550,24 @@
 - Better BuildOps handling for Monday jobs — When a job doesn't have an estimate in CADdy yet, BuildOps now gets a clear explanation with links to the Monday item and the SharePoint files, instead of an error.
 ## v0.1.8-Alpha ---------------
 - 2026-07-23
-## New Features
+## New Features (v0.1.8)
 - Package & Assembly categories and estimate trees. Packages and assemblies now support nested categories, with a category tree view on the estimate page. The Packages and Assemblies views on the estimate page are now split into their own sections.
 - Multi-select projects → export to Excel. Ctrl+click to select multiple projects on the Projects page, then right-click to copy the selection into an Excel document.
 - Quick links from the project overview for faster navigation.
 - Full PDF download for BuildOps insert (previously only the AIA document was available).
 - Larger max upload size for estimate files.
 - More detailed job status updates in Approvals, plus an "approved" flag for jobs marked Won.
-## Bug Fixes
+## Bug Fixes (v0.1.8)
 - Dashboard close dates display corrected.
 - Scrollbar now stays in place when new estimates are created.
-## Admin Updates
+## Admin Updates (v0.1.8)
 - Package & Assembly upload/download. Admins can now upload and download packages and assemblies via Excel.
 - New Estimate Manager role. Fixed the manager role and added a dedicated Estimate Manager role to control who can review and approve estimates.
 - Admin Users default permissions fixed so users now receive the correct default admin permissions based on their role.
 - Construction vs. Service labor now separated correctly, so Service labor only shows SER- offices.
 ## v0.1.7-Alpha ---------------
 - 2026-07-22
-## New Features
+## New Features (v0.1.7)
 - New BuildOps flow: once a job is approved by both manager and legal and moves to Won, BuildOps users can view the AIA and mark when the job is submitted into BuildOps.
 - Assembly requests for estimators: estimators can now request assemblies (alongside catalog requests).
 - Estimate upload: estimators can upload an existing estimates / estimate files, and managers can view it for approval.
@@ -574,11 +575,11 @@
 - Multi-select project filters: filter projects by multiple values at once.
 - Review Estimate Checklist: new button for managers to go straight to the review page for estimates in review.
 - "See Revisions" status: sales can easily see when legal marks a job as needing revisions.
-## Bug Fixes
+## Bug Fixes (v0.1.7)
 - Approval emails now send to managers every time legal marks a job "not ready" or "see revisions".
 - Fixed the "submit for approval" modal and flow so it works for existing jobs in sent to customer.
 - Tutorial bug fixed.
-## Admin Updates
+## Admin Updates (v0.1.7)
 - Admin User Requests page now has a separate tab splitting catalog requests from assembly requests.
 - Admin page list re-ordered alphabetically.
 - Removed the approved / denied tabs in approval tab.
@@ -586,7 +587,7 @@
 - Tutorials turned off for now until they're updated.
 ## v0.1.6-Alpha ---------------
 - 2026-07-21
-## New Features
+## New Features (v0.1.6)
 - All projects imported from Monday, including updates, values, dates, people, etc.
 - Estimate review (Ready for Review): estimates sent to sales now go through a manager review, with email notifications to the manager, estimator, and sales.
 - Bid approval process (two-stage): bids now go through a final approval with separate Legal and Manager sign-offs.
@@ -595,7 +596,7 @@
 - Post-win checklist: a checklist must be filled out before a bid goes to approval, including marking the winning bidder on the job.
 - Private assemblies: create your own private assemblies.
 - Invite page office filter: filter the subcontractor list by office when inviting.
-## Admin Updates
+## Admin Updates (v0.1.6)
 - New admin Checklists page to configure checkout questions per type (Sales, CO, PM).
 - New admin Sales settings to route review and approval emails.
 - Admin catalog Categories tab bug fixes.
@@ -603,7 +604,7 @@
 - Admin Assemblies: make assemblies company-wide or private, plus a "show all" scope view to see everyone's assemblies.
 - Info popups on names: click a company name to see all its people, or click a person's name to see their companies.
 - Add Question modal now shows which checklist type you're adding to (e.g. "Add Sales Question").
-## Bug Fixes
+## Bug Fixes (v0.1.6)
 - Sales checklist now resets when a project moves back before "Ready for Approval," so Won re-locks and the checklist must be re-submitted and re-approved.
 - Re-inviting now keeps the invite's own expiry date instead of defaulting to the project bid date, which could already be in the past.
 - Approval checklist now opens in its own window.
@@ -612,18 +613,18 @@
 - Styling fixes across the review, approval, and checklist screens
 ## v0.1.5-Alpha ---------------
 - 2026-07-16
-## New Features
+## New Features (v0.1.5)
 - New catalog category tree — Estimators can now browse a nested category tree to find items faster, instead of always searching or scrolling one long list.
 - Updated subcontractor list — Refreshed the subcontractor contacts used throughout the app.
 - Back-to-top button — A quick "back to top" button now appears while scrolling long estimate pages.
-## Admin Updates
+## Admin Updates (v0.1.5)
 - Redesigned admin catalog page — The old "Materials" page is now "Catalog," with clickable subcategories. Uploads now automatically create tabs, add categories, and move items between categories.
-## Bug Fixes
+## Bug Fixes (v0.1.5)
 - Fixed the /invite page — The invite page now works correctly with the updated subcontractor contacts.
 - Fixed scrollbar on estimate / sidebar.
 ## v0.1.4-Alpha ---------------
 - 2026-07-14
-## New Features
+## New Features (v0.1.4)
 - New Sales section with pipeline pages, weekly performance, and metrics dashboards, including a contractor-revenue chart and an Export button to pull a report of the data.
 - Sales Actions board with your own actions plus collaborator actions, group-by-status, drag-and-drop reordering, column sorting, right-click to delete, and attendee/company filters.
 - A new Communications tab on the updates modal for both actions and projects, where linked emails and phone numbers can be viewed.
@@ -639,7 +640,7 @@
 - A new Admin Users Deleted tab to fully remove a user's access, or restore and view deleted users who still show on old projects, plus clearer enabled/disabled indicators.
 - An admin release scheduling page for maintenance banners, plus a new-release alert on the dashboard.
 - A new homepage with a left sidebar for easier navigation.
-## Bug Fixes
+## Bug Fixes (v0.1.4)
 - The sales page now reads loss dates correctly, and the salesperson dropdown only lists salespeople.
 - Fixed chart and table refresh issues on the sales metrics pages.
 - Collaborators can no longer edit an action's section, date, time, or status.
@@ -650,33 +651,33 @@
 - Added mobile views for projects and sales pages.
 ## v0.1.3-Alpha ---------------
 - 2026-07-08
-## New Features
+## New Features (v0.1.3)
 - Subcontractor invite emails now list the equipment count and the devices under each item, so subs can see exactly what's included.
 - You can now reorder items on the estimate by dragging and dropping them.
 - The salesperson is now emailed automatically when a subcontractor invite is sent and again when the subcontractor submits their quote.
 - The estimate items filter now lists categories alphabetically and includes a search bar. Active filters are clearly marked so you can tell at a glance when one is applied, and a new Clear Filters button resets them all at once.
 - New estimates are now prepopulated with the project name, and revision numbers are assigned in the order the estimates are created.
 - Fixed package search bar to search package names / descriptions.
-## Admin Updates
+## Admin Updates (v0.1.3)
 - Added a new role picker for testing, so admins can preview the app as a different role.
 - The admin materials table no longer has its own scrollbar and now fills the full width of the page.
 - Added an All option to the items-per-page setting so you can view every item on a single page.
 - Added new description column to the Packages page.
 ## v0.1.2-Alpha ---------------
 - 2026-07-02
-## New Features
+## New Features (v0.1.2)
 - You can now create a new salesperson or estimator if they aren't in the database yet by entering their first name, last name, and email.
 - You can now assign up to 3 estimators or salespeople to a single project.
 - Moved the quote number to the bottom of the Create Project modal, since it's tied to the salesperson. It now uses the first salesperson listed.
 - Widened the project column widths for better readability and the Project Name is now always visible when scrolling.
 - Added a set of subcontractor companies to the install page (the invite page notes that we don't have contacts for these yet).
-## Admin Updates
+## Admin Updates (v0.1.2)
 - Reworked the Accounts page so both companies and people can be set as subcontractors, for use on both the install and invite pages.
 - Added filters, collapsible People and Companies sections, and column sorting to the Accounts page.
 - The Packages equipment type filter is now a dropdown.
 ## v0.1.1-Alpha ---------------
 - 2026-06-25
-## Admin Updates
+## Admin Updates (v0.1.1)
 - Renamed "Hours" to "Labor" across the app.
 - Added multiselect for offices when creating a new labor row.
 - Added multiselect to edit the cost or rate of multiple labor rows at once.
@@ -690,7 +691,7 @@
 - Bug fixes: Log page now shows 12 logs per page, subcontractors are created through an existing person.
 ## v0.1.0-Alpha ---------------
 - 2026-06-22
-## New Features
+## New Features (v0.1.0)
 - Added a right click option to view assembly items in the sidebar when creating estimates.
 - Added companies and people management in Accounts admin page.
 - Added all BuildOps clients to the DB.
@@ -701,7 +702,7 @@
 - Added a new Hours admin page with the ability to create, edit, and delete hour entries including cost code, cost, and rate.
 ## v0.0.6-Pre-Alpha ---------------
 - 2026-06-16
-## New Features
+## New Features (v0.0.6)
 - Accounts admin pg: Checkout questions, subcontractors, and locations. Will eventually add more customer management here.
 - Lessons admin pg: View submitted lessons learned by estimators using the checkout sheet, can be general or by-client. Also manage lesson subjects here.
 - Automations admin pg: Admins can set up email notifications when status changes are made to projects.
@@ -711,7 +712,7 @@
 - Saves as they go, with optional notes for each checkbox.
 - Lessons learned can be added, which are optionally linked to a client.
 - Marked with a green checkbox once submitted. Click this indicator to view the submitted answers. Reopens if the project is no longer Ready for Review.
-## Improvements
+## Improvements (v0.0.6)
 - Package/Assembly items can have decimals quantities up to 2 decimal places
 - Updated projects page: added estimator and salesperson columns, renamed contacts, fixed minimum width to show all column headers.
 - Admin hours changes: Added other hours (commissioning, etc) to the export, added a warning for hours that don’t have a group size but have set duplicate hours. Still allows save.
@@ -720,18 +721,18 @@
 - Added a right click option to view assembly items in the sidebar when creating packages.
 ## v0.0.5-Pre-Alpha ---------------
 - 2026-06-10
-## New Features
+## New Features (v0.0.5)
 - Right click an estimate item to request adding it to the master BOM list.
 - New admin page to approve or deny requested BOM items, with an automatic email sent to whoever made the request.
 - Added export / import for material items on the admin materials page — export items, edit any part information, and import the changes back in. The update tab now also accepts Belimo or Distech parts sheets and Brooks BOMs directly.
 - Added a right click option to move an item to a new section on the admin materials page (works with single or multi-select).
 - New feedback page for users to submit issues, bugs, or suggestions.
 - New admin page to view submitted feedback, with statuses for open, in progress, and closed.
-## Improvements
+## Improvements (v0.0.5)
 - On the admin materials page, you can now hide columns (with a "show hidden columns" option) and adjust the page size dynamically.
 ## v0.0.4-Pre-Alpha ---------------
 - 2026-06-03
-## New Features
+## New Features (v0.0.4)
 - Added subcontractor invites:
   - Email invite with Brooks logo & colors
   - Set expiration dates; filter by company, location, or radius
@@ -749,20 +750,20 @@
 - Custom hours can now be added to the estimate hours summary.
 - Added export / import options for controller hours and materials on the admin pages.
 - On the admin materials page, you can now hide columns (with a "show hidden columns" option) and adjust the page size dynamically.
-## Improvements
+## Improvements (v0.0.4)
 - Double clicking an estimate item manufacturer lets you change it, with a custom option that saves a new manufacturer (auto-capitalized).
 - New install page dropdowns and inputs for subcontractors (3 max; will eventually prefill with invited subcontractors & their quotes).
 - Admin hours page now highlights rows for controllers missing hour rules, with new filters to find specific missing hours.
 - Added a warning on the estimates page when a controller has no recommended hours.
 ## v0.0.3-Pre-Alpha ---------------
 - 2026-05-26
-## New Features
+## New Features (v0.0.3)
 - Added warranty to the estimate summary page & PDF export (5% of materials).
 - Added warranty to the miscellaneous admin page (Misc Prices) where admins can change the percentage.
 - Quote numbers now auto-count per user (formatted with user initials, month, year, and user quote number — CCmmyy00X).
 - Added assigned people (sales, estimator, manager) to the projects page.
 - Added a "show assemblies" checkbox to the estimate package sidebar filter.
-## Improvements
+## Improvements (v0.0.3)
 - Added actual hours & hourly rate to the "Cost Breakdown" on PDF export.
 - Separated submittals and O&Ms/As-builts in the Hours breakdown on PDF export.
 - Added install cost code to the PDF export.
@@ -773,12 +774,12 @@
 - Made part number editable on the admin materials page.
 - When the project office is changed, it prompts you to update hourly rates for the new office in existing estimates.
 - Changed admin package filters to match the estimate items filter.
-## Bug Fixes
+## Bug Fixes (v0.0.3)
 - Adj $/Hour now actually saves.
 - Additional fixes: tutorial, logout redirect, tax added to AIA, and more.
 ## v0.0.2-Pre-Alpha ---------------
 - 2026-05-21
-## New Features
+## New Features (v0.0.2)
 - Added custom install $/device input on the estimate install tab.
 - Added summary and AIA export document.
 - Added double click to edit estimate name & rev number on the projects page.
@@ -787,7 +788,7 @@
 - Split the estimate sidebar into item & package views (double click the title to switch views).
 - Added filters to the estimate sidebar: filter by category, search by tag, description, or part number.
 - Users can edit manually added device / controller description, part number, or price by double clicking.
-## Improvements
+## Improvements (v0.0.2)
 - Estimate sale price total on the projects page now matches the estimate sale price.
 - Revision numbers start with "Rev", and the same rev numbers are allowed for estimates with different names.
 - Removed project number from the create new project popup.
@@ -797,11 +798,11 @@
 - Added cost code number to the AIA tab.
 - Made pie chart colors more distinct & added percent / category total below the chart.
 - Added travel to the summary breakdown section right after gross margin.
-## Bug Fixes
+## Bug Fixes (v0.0.2)
 - Fixed package image upload bug.
 ## v0.0.1-Pre-Alpha ---------------
 - 2026-05-18
-## Features
+## Features (v0.0.1)
 - Project Management: Create projects and add one or more estimates to each project. Add project updates and tag users with @mentions to notify them by email.
 - Estimate Creation: Build estimates from scratch using Belimo and Distech parts.
 - Hours Pricing: Add labor hours to estimates with office-specific hourly rates.
@@ -810,7 +811,7 @@
 - Warranty and Contingency: Update warranty and contingency values as part of the estimate pricing workflow.
 - Package Management: Create reusable packages of items to speed up estimate setup.
 - Admin Setup: Manage estimate items, packages, hours, install systems, and other pricing data used throughout CADdy Bid.
-## Things to keep in mind
+## Things to keep in mind (v0.0.1)
 - CADdy Bid is currently in a pre-alpha testing phase. Some pricing logic, calculations, cost codes, and recommended hours may still need adjustments.
 - Not all recommended hours have been finalized yet, and some packages, install systems, or pricing details may still be missing.
 - If something looks incorrect, breaks unexpectedly, feels confusing, or seems like it could be improved, please send feedback to caddy@brookssolutions.net
