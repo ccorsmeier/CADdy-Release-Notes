@@ -87,6 +87,19 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.6-Beta
+@date: 2026-10-23
+## New Features
+- Switched columns on projects page: project number with quote number, and links with market.
+## Bug Fixes
+- Commissions page loads faster and no longer repaints section by section while it opens.
+- Brooks Bank statement lines keep the admin note aligned and readable after the date and pill.
+## Admin Updates
+- Approvals board has a new Re-estimates tab where re-estimates approved in CADdy-Hub come for the final approve or deny.
+- Brooks Bank: admins can enter a negative amount to take money out of a rep's balance.
+- Brooks Bank removals and their notes show on the page statement and the monthly PDF statement, with who made them.
+- Commissions remembers the salesperson you picked after a refresh.
+
 # CADdy Bid v0.5.5-Beta
 @date: 2026-10-21
 ## New Features
