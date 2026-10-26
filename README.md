@@ -87,6 +87,19 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.7-Beta
+@date: 2026-10-26
+## New Features
+- The project updates window has a new SharePoint tab that replaces the Files tab, where you can browse, upload, download, rename, move and delete files in the project's SharePoint folder.
+- When creating a project, choose Create SharePoint Folder to make its Sales Files folder, or Enter Sales Link to paste a folder you already have.
+- You can now attach files to project updates (from SharePoint or your device).
+- You can add bid documents to subcontractor invites straight from SharePoint.
+- You can now pin the estimate that drives a project's Hours, Values, Bid Amount and GM %, using the pin icon in the expanded estimates list.
+## Bug Fixes
+- The Brooks Bank and Paid YTD tiles on Project Backlog and Service Agreements now match the Statements tab, including partial payouts, weekly draws, adjustments and pending requests.
+## Admin Updates
+- Admin > Sales > Process has a new Re-estimate Approval table where you choose who gets the re-estimate hand-off email from Hub to Bid.
+
 # CADdy Bid v0.5.6-Beta
 @date: 2026-10-23
 ## New Features
