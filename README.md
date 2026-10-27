@@ -87,6 +87,25 @@
 - Please be fully honest with your feedback. If something feels off, unclear, or not useful, we genuinely want to know. Thanks so much!
 
 
+# CADdy Bid v0.5.8-Beta
+@date: 2026-10-27
+## New Features
+- New Technician Commissions page where techs can see their commissions on signed field quotes, based on the actual hours and costs from BuildOps.
+- Opening a technician commission shows the BuildOps hours behind it, broken down by visit and technician, right in the calculation.
+- Commissions that come to $0 now skip approval and show a "No payment" pill.
+- Service quotes can resend the signing email to a single recipient from the Sent to Customer list, and History shows the resend.
+- Pages now load smoothly, with sections appearing top to bottom as their data arrives.
+- The CADdy Bid logo now takes you home, and hovering it shows a link to open CADdy-Hub.
+## Bug Fixes
+- The field quote sheet, quick quote, signature, estimate review and checkout pages now keep you signed in while they are open.
+- When your session expires on those pages, you now get a clear message instead of a generic error.
+- The New activity button no longer stays disabled the first time Sales Actions loads.
+- Switching approvals tabs quickly no longer shows the wrong tab's results.
+- Fixed the alignment of the "No estimates yet" message.
+## Admin Updates
+- Technician commissions can be turned on per technician from the new Technicians subtab on the Commissions admin page.
+- Refresh from BuildOps on Technician Commissions lets you choose what to refresh (job status, hours and costs, or both) and for which technicians.
+
 # CADdy Bid v0.5.7-Beta
 @date: 2026-10-26
 ## New Features
